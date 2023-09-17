@@ -1,0 +1,37 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "bbf39ce36e4be7000d9bc723e37a73a98f17a9027a4f3541972e75a22bb54ca3"
+build_start_time: [1694946447, 164066000]
+build_end_time: [1694946451, 289240000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/DebugInboundEventsHandler.swift"
+  : [1694946381, 110353098]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/DebugOutboundEventsHandler.swift"
+  : [1694946381, 110418305]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/FixedLengthFrameDecoder.swift"
+  : [1694946381, 110796718]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/HTTP1ProxyConnectHandler.swift"
+  : [1694946381, 110896258]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming+ContentLengthHeader.swift"
+  : [1694946381, 111047382]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/JSONRPCFraming.swift": [1694946381, 111115881]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldBasedFrameDecoder.swift"
+  : [1694946381, 111199213]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LengthFieldPrepender.swift"
+  : [1694946381, 111278629]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/LineBasedFrameDecoder.swift"
+  : [1694946381, 111351212]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/MarkedCircularBuffer+PopFirstCheckMarked.swift"
+  : [1694946381, 111452794]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/NIOExtrasError.swift": [1694946381, 111512876]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/NIOLengthFieldBitLength.swift"
+  : [1694946381, 111576876]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/NIORequestIdentifiable.swift"
+  : [1694946381, 111642292]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/PCAPRingBuffer.swift": [1694946381, 111718541]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/QuiescingHelper.swift": [1694946381, 111862747]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/RequestResponseHandler.swift"
+  : [1694946381, 111935413]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/RequestResponseWithIDHandler.swift"
+  : [1694946381, 112007037]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOExtras/WritePCAPHandler.swift"
+  : [1694946381, 112182910]

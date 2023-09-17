@@ -1,0 +1,40 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "f695558e2b47c86890250da77da1a9e31b2b3fb1727483b9a5bbf553592ee593"
+build_start_time: [1694946449, 663037000]
+build_end_time: [1694946451, 323973000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/BasicCodingKey.swift": [1694946378, 5011434]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/Deprecated/MultipartError.swift"
+  : [1694946378, 5116975]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/Exports.swift": [1694946378, 5289390]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataDecoder/FormDataDecoder.Decoder.swift"
+  : [1694946378, 5386930]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataDecoder/FormDataDecoder.KeyedContainer.swift"
+  : [1694946378, 5501721]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataDecoder/FormDataDecoder.SingleValueContainer.swift"
+  : [1694946378, 5690635]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataDecoder/FormDataDecoder.UnkeyedContainer.swift"
+  : [1694946378, 5839800]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataDecoder/FormDataDecoder.swift"
+  : [1694946378, 5918674]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder/FormDataEncoder.Encoder.swift"
+  : [1694946378, 6018506]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder/FormDataEncoder.KeyedContainer.swift"
+  : [1694946378, 6148463]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder/FormDataEncoder.SingleValueContainer.swift"
+  : [1694946378, 6210337]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder/FormDataEncoder.UnkeyedContainer.swift"
+  : [1694946378, 6276670]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder/FormDataEncoder.swift"
+  : [1694946378, 6332961]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/FormDataEncoder/Storage.swift"
+  : [1694946378, 6385210]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartFormData.swift"
+  : [1694946378, 6461084]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartParser.swift": [1694946378, 6544583]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartPart.swift": [1694946378, 6601125]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartPartConvertible.swift"
+  : [1694946378, 6684332]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/MultipartSerializer.swift"
+  : [1694946378, 6740831]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/multipart-kit/Sources/MultipartKit/Utilities.swift": [1694946378, 6794331]

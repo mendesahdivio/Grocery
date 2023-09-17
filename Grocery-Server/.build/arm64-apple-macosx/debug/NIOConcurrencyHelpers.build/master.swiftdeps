@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "8d1ea67e14f1ed2b611b4d32e8e2140d5c345d66e3ba74f9b2f0998f61180191"
+build_start_time: [1694946434, 2378000]
+build_end_time: [1694946435, 497880000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/NIOAtomic.swift": [1694946379, 208670961]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/NIOLock.swift": [1694946379, 208816667]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/NIOLockedValueBox.swift"
+  : [1694946379, 208920749]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/atomics.swift": [1694946379, 209104706]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOConcurrencyHelpers/lock.swift": [1694946379, 209402119]

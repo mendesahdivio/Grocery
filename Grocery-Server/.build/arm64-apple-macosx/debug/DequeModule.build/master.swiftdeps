@@ -1,0 +1,39 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "38866e569b34897d5feea38fabde2f008e6ab9e28b7c0ced0058a40d5e087fa8"
+build_start_time: [1694946410, 844092000]
+build_end_time: [1694946413, 902690000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Compatibility.swift"
+  : [1694946376, 555366456]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque+Codable.swift"
+  : [1694946376, 555467413]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque+Collection.swift"
+  : [1694946376, 555654369]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque+CustomDebugStringConvertible.swift"
+  : [1694946376, 555742535]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque+CustomReflectable.swift"
+  : [1694946376, 555954240]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque+CustomStringConvertible.swift"
+  : [1694946376, 556013281]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque+Equatable.swift"
+  : [1694946376, 556364652]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque+ExpressibleByArrayLiteral.swift"
+  : [1694946376, 556434110]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque+Extras.swift": [1694946376, 556530359]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque+Hashable.swift"
+  : [1694946376, 556614191]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque+Testing.swift"
+  : [1694946376, 556720606]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque._Storage.swift"
+  : [1694946376, 556813064]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque._UnsafeHandle.swift"
+  : [1694946376, 556938396]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/Deque.swift": [1694946376, 557029478]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/UnsafeMutableBufferPointer+Utilities.swift"
+  : [1694946376, 557307183]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/_DequeBuffer.swift": [1694946376, 557382807]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/_DequeBufferHeader.swift"
+  : [1694946376, 557576347]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/_DequeSlot.swift": [1694946376, 557664054]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/DequeModule/_UnsafeWrappedBuffer.swift"
+  : [1694946376, 557735553]

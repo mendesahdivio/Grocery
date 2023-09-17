@@ -1,0 +1,4 @@
+module XCTVapor {
+    header "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/XCTVapor.build/XCTVapor-Swift.h"
+    requires objc
+}

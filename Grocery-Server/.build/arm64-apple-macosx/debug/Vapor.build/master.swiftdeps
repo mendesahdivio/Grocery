@@ -1,0 +1,272 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "c1d9c06f3dbe30038a423dc9956cc1f8ef0ba17b25cbdf83c53a121a43bf0ac6"
+build_start_time: [1694946459, 7690000]
+build_end_time: [1694946464, 945072000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Application.swift": [1694946376, 974944447]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Authentication/AuthenticationCache.swift"
+  : [1694946376, 976092142]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Authentication/Authenticator.swift": [1694946376, 976174683]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Authentication/BasicAuthorization.swift"
+  : [1694946376, 976248640]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Authentication/BearerAuthorization.swift"
+  : [1694946376, 976312973]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Authentication/GuardMiddleware.swift": [1694946376, 976378764]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Authentication/RedirectMiddleware.swift"
+  : [1694946376, 976446554]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Authentication/SessionAuthenticatable.swift"
+  : [1694946376, 976527929]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Bcrypt/Bcrypt.swift": [1694946376, 976690760]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Cache/Application+Cache.swift": [1694946376, 976804759]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Cache/Cache.swift": [1694946376, 976894758]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Cache/CacheExpirationTime.swift": [1694946376, 976958007]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Cache/MemoryCache.swift": [1694946376, 977034298]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Cache/Request+Cache.swift": [1694946376, 977088172]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Client/Application+Clients.swift": [1694946376, 977204879]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Client/Client.swift": [1694946376, 977301670]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Client/ClientRequest.swift": [1694946376, 977377044]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Client/ClientResponse.swift": [1694946376, 977477042]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Client/Request+Client.swift": [1694946376, 977544542]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Commands/BootCommand.swift": [1694946376, 977645916]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Commands/CommandContext+Application.swift"
+  : [1694946376, 977714748]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Commands/RoutesCommand.swift": [1694946376, 978295825]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Commands/ServeCommand.swift": [1694946376, 978374240]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/AnyResponse+Concurrency.swift"
+  : [1694946376, 978472198]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/AsyncBasicResponder.swift"
+  : [1694946376, 978541114]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/AsyncMiddleware.swift": [1694946376, 978604113]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/AsyncPasswordHasher+Concurrency.swift"
+  : [1694946376, 978673570]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/AsyncSessionDriver.swift": [1694946376, 978737653]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/Authentication+Concurrency.swift"
+  : [1694946376, 978807277]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/Cache+Concurrency.swift": [1694946376, 978868735]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/Client+Concurrency.swift": [1694946376, 978941651]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/FileIO+Concurrency.swift": [1694946376, 979920306]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/Request+Concurrency.swift"
+  : [1694946376, 980058429]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/Responder+Concurrency.swift"
+  : [1694946376, 980156387]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/ResponseCodable+Concurrency.swift"
+  : [1694946376, 980242052]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/RoutesBuilder+Concurrency.swift"
+  : [1694946376, 980313801]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/ViewRenderer+Concurrency.swift"
+  : [1694946376, 980377342]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Concurrency/WebSocket+Concurrency.swift"
+  : [1694946376, 980447258]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Content/ContainerGetPathExecutor.swift"
+  : [1694946376, 980553090]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Content/Content.swift": [1694946376, 980624631]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Content/ContentCoders.swift": [1694946376, 980687714]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Content/ContentConfiguration.swift": [1694946376, 980761796]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Content/ContentContainer.swift": [1694946376, 980841587]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Content/JSONCoder+Custom.swift": [1694946376, 980904461]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Content/JSONCoders+Content.swift": [1694946376, 980965252]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Content/PlaintextDecoder.swift": [1694946376, 981032460]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Content/PlaintextEncoder.swift": [1694946376, 981107751]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Content/URLQueryCoders.swift": [1694946376, 981169417]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Content/URLQueryContainer.swift": [1694946376, 981243707]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Core/Core.swift": [1694946376, 981360123]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Core/Running.swift": [1694946376, 981422205]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Deprecations/CORSMiddleware+AllowOriginSetting.swift"
+  : [1694946376, 981512204]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Deprecations/CORSMiddleware+Configuration+exposedHeaders.swift"
+  : [1694946376, 981590287]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Deprecations/DotEnvFile+load.swift": [1694946376, 981852284]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Deprecations/Routes+caseInsenstive.swift"
+  : [1694946376, 981916950]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Deprecations/Validatable+validate.swift"
+  : [1694946376, 981978491]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Environment/Environment+Process.swift"
+  : [1694946376, 982336778]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Environment/Environment+Secret.swift": [1694946376, 982413777]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Environment/Environment.swift": [1694946376, 982500276]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Error/Abort.swift": [1694946376, 982601317]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Error/AbortError.swift": [1694946376, 982692816]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Error/DebuggableError.swift": [1694946376, 982767731]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Error/Demangler.swift": [1694946376, 982827397]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Error/ErrorSource.swift": [1694946376, 982889480]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Error/StackTrace.swift": [1694946376, 982952438]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Exports.swift": [1694946376, 983023145]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Application+HTTP.swift": [1694946376, 983248726]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/BasicResponder.swift": [1694946376, 983306100]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/BodyStream.swift": [1694946376, 983371016]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Client/Application+HTTP+Client.swift"
+  : [1694946376, 983476765]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Client/EventLoopHTTPClient.swift"
+  : [1694946376, 983550389]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/EndpointCache.swift": [1694946376, 983638430]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/HTTPMethod+String.swift": [1694946376, 983698137]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/HTTPStatus.swift": [1694946376, 983755220]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPCookies.swift": [1694946376, 983890302]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPHeaderCacheControl.swift"
+  : [1694946376, 983993676]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPHeaderExpires.swift": [1694946376, 984058758]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPHeaderLastModified.swift"
+  : [1694946376, 984122799]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPHeaders+Cache.swift": [1694946376, 984184215]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPHeaders+Connection.swift"
+  : [1694946376, 984246673]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPHeaders+ContentDisposition.swift"
+  : [1694946376, 984309755]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPHeaders+ContentRange.swift"
+  : [1694946376, 984393088]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPHeaders+Directive.swift"
+  : [1694946376, 984844707]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPHeaders+Forwarded.swift"
+  : [1694946376, 984923082]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPHeaders+Link.swift": [1694946376, 984995497]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPHeaders+Name.swift": [1694946376, 985129287]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPHeaders.swift": [1694946376, 985215078]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPMediaType.swift": [1694946376, 985393410]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Headers/HTTPMediaTypePreference.swift"
+  : [1694946376, 985482950]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Responder.swift": [1694946376, 985684948]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Server/Application+HTTP+Server.swift"
+  : [1694946376, 985985861]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Server/HTTPServer.swift": [1694946376, 986352524]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Server/HTTPServerHandler.swift": [1694946376, 986577896]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Server/HTTPServerRequestDecoder.swift"
+  : [1694946376, 986799893]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Server/HTTPServerResponseEncoder.swift"
+  : [1694946376, 987018391]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/HTTP/Server/HTTPServerUpgradeHandler.swift"
+  : [1694946376, 987443011]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Logging/Logger+Report.swift": [1694946376, 987772549]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Logging/LoggingSystem+Environment.swift"
+  : [1694946376, 987963838]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Middleware/Application+Middleware.swift"
+  : [1694946376, 988239085]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Middleware/CORSMiddleware.swift": [1694946376, 988638705]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Middleware/ErrorMiddleware.swift": [1694946376, 988741746]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Middleware/FileMiddleware.swift": [1694946376, 988842870]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Middleware/Middleware.swift": [1694946376, 988990451]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Middleware/MiddlewareConfiguration.swift"
+  : [1694946376, 989145158]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Middleware/RouteLoggingMiddleware.swift"
+  : [1694946376, 989214449]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Multipart/File+Multipart.swift": [1694946376, 989413446]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Multipart/FormDataDecoder+Content.swift"
+  : [1694946376, 989506945]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Multipart/FormDataEncoder+Content.swift"
+  : [1694946376, 989598111]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Passwords/Application+Password.swift": [1694946376, 989718651]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Passwords/Application+Passwords.swift"
+  : [1694946376, 989814317]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Passwords/AsyncPasswordHasher.swift": [1694946376, 989895149]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Passwords/BcryptHasher.swift": [1694946376, 989965107]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Passwords/PasswordHasher.swift": [1694946376, 990043564]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Passwords/PlaintextHasher.swift": [1694946376, 990102064]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Passwords/Request+Password.swift": [1694946376, 990159563]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Request/Redirect.swift": [1694946376, 990271562]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Request/Request+Body.swift": [1694946376, 990372185]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Request/Request+BodyStream.swift": [1694946376, 990464309]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Request/Request.swift": [1694946376, 990566516]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Responder/Application+Responder.swift"
+  : [1694946376, 990687265]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Responder/DefaultResponder.swift": [1694946376, 990789139]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Response/Response+Body.swift": [1694946376, 990926096]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Response/Response.swift": [1694946376, 991044636]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Response/ResponseCodable.swift": [1694946376, 991148843]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Routing/Application+Routes.swift": [1694946376, 991271425]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Routing/Parameters+Require.swift": [1694946376, 991416882]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Routing/Request+WebSocket.swift": [1694946376, 991496131]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Routing/Route.swift": [1694946376, 991577755]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Routing/RouteCollection.swift": [1694946376, 991646796]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Routing/Routes.swift": [1694946376, 991706462]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Routing/RoutesBuilder+Group.swift": [1694946376, 991937959]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Routing/RoutesBuilder+Method.swift": [1694946376, 992038750]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Routing/RoutesBuilder+Middleware.swift"
+  : [1694946376, 992118040]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Routing/RoutesBuilder+WebSocket.swift"
+  : [1694946376, 992311413]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Routing/RoutesBuilder.swift": [1694946376, 992377454]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Security/OTP.swift": [1694946376, 992500119]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Server/Application+Servers.swift": [1694946376, 992598326]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Server/Server.swift": [1694946376, 992663492]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Sessions/Application+Sessions.swift": [1694946376, 992864615]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Sessions/MemorySessions.swift": [1694946376, 992931198]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Sessions/Request+Session.swift": [1694946376, 992991114]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Sessions/Session.swift": [1694946376, 993074571]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Sessions/SessionCache.swift": [1694946376, 993320443]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Sessions/SessionData.swift": [1694946376, 993397192]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Sessions/SessionDriver.swift": [1694946376, 993466066]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Sessions/SessionsConfiguration.swift": [1694946376, 993534357]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Sessions/SessionsMiddleware.swift": [1694946376, 993603940]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/URLEncodedForm/DateFormatter+threadSpecific.swift"
+  : [1694946376, 993707897]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/URLEncodedForm/URLEncodedFormData.swift"
+  : [1694946376, 993785229]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/URLEncodedForm/URLEncodedFormDecoder.swift"
+  : [1694946376, 993971894]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/URLEncodedForm/URLEncodedFormEncoder.swift"
+  : [1694946376, 994105309]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/URLEncodedForm/URLEncodedFormError.swift"
+  : [1694946376, 994180850]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/URLEncodedForm/URLEncodedFormParser.swift"
+  : [1694946376, 994255099]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/URLEncodedForm/URLEncodedFormSerializer.swift"
+  : [1694946376, 994321306]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/URLEncodedForm/URLQueryFragmentConvertible.swift"
+  : [1694946376, 994390764]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/AnyResponse.swift": [1694946376, 994722135]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/Array+Random.swift": [1694946376, 994811509]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/Base32.swift": [1694946376, 994913841]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/Base64.swift": [1694946376, 994971799]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/BaseN.swift": [1694946376, 995061131]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/BasicCodingKey.swift": [1694946376, 995129089]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/ByteCount.swift": [1694946376, 995190213]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/Bytes+Hex.swift": [1694946376, 995252379]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/Bytes+SecureCompare.swift": [1694946376, 995318795]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/Collection+Safe.swift": [1694946376, 995419502]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/DataProtocol+Copy.swift": [1694946376, 995479793]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/DecoderUnwrapper.swift": [1694946376, 995538501]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/DirectoryConfiguration.swift"
+  : [1694946376, 995603333]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/DotEnv.swift": [1694946376, 995689332]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/Extendable.swift": [1694946376, 995767665]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/File.swift": [1694946376, 995835206]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/FileIO.swift": [1694946376, 995945496]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/LifecycleHandler.swift": [1694946376, 996132952]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/OptionalType.swift": [1694946376, 996197535]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/RFC1123.swift": [1694946376, 996269326]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/SocketAddress+Hostname.swift"
+  : [1694946376, 996325200]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/Storage.swift": [1694946376, 996403824]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/String+IsIPAddress.swift": [1694946376, 996461782]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/Thread.swift": [1694946376, 996516781]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Utilities/URI.swift": [1694946376, 996590614]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/RangeResult.swift": [1694946376, 996694279]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validatable.swift": [1694946376, 996758070]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validation.swift": [1694946376, 996838569]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/ValidationKey.swift": [1694946376, 996905277]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validations.swift": [1694946376, 996975901]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/ValidationsError.swift": [1694946376, 997039858]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validator.swift": [1694946376, 997094816]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/ValidatorResult.swift": [1694946376, 997161399]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/And.swift": [1694946376, 997299980]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/Case.swift": [1694946376, 997376604]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/CharacterSet.swift"
+  : [1694946376, 997462479]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/Count.swift": [1694946376, 997535519]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/Email.swift": [1694946376, 997604477]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/Empty.swift": [1694946376, 997665310]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/In.swift": [1694946376, 997730725]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/Nil.swift": [1694946376, 997799808]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/NilIgnoring.swift"
+  : [1694946376, 997867807]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/Not.swift": [1694946376, 997928598]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/Or.swift": [1694946376, 997989014]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/Pattern.swift": [1694946376, 998048972]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/Range.swift": [1694946376, 998114138]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/URL.swift": [1694946376, 998176220]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/Validation/Validators/Valid.swift": [1694946376, 998238636]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/View/Application+Views.swift": [1694946376, 998334052]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/View/PlaintextRenderer.swift": [1694946376, 998403759]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/View/Request+View.swift": [1694946376, 998463925]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/View/View.swift": [1694946376, 998525175]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/View/ViewRenderer.swift": [1694946376, 998580674]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/vapor/Sources/Vapor/_Deprecations.swift": [1694946376, 998637465]

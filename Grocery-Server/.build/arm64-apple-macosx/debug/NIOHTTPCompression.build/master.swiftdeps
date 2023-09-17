@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "79c44785c934e25ac95182d4e6022cbe4347962cd9355f31d84bb57d3f24d5ce"
+build_start_time: [1694946447, 116528000]
+build_end_time: [1694946449, 544128000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPCompression.swift"
+  : [1694946381, 113384271]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPDecompression.swift"
+  : [1694946381, 113468104]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPRequestCompressor.swift"
+  : [1694946381, 113550019]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPRequestDecompressor.swift"
+  : [1694946381, 113686935]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPResponseCompressor.swift"
+  : [1694946381, 113796267]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOHTTPCompression/HTTPResponseDecompressor.swift"
+  : [1694946381, 113875641]

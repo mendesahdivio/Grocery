@@ -1,0 +1,50 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "b0b9790378e3b17b66eb0a0df7fdf619003e8741c6cda65a3f91bae04e84be0d"
+build_start_time: [1694946443, 325195000]
+build_end_time: [1694946456, 312510000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/ConnectionPoolError.swift"
+  : [1694946380, 467531475]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/ConnectionPoolItem.swift"
+  : [1694946380, 467593682]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/ConnectionPoolSource.swift"
+  : [1694946380, 467660473]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/EventLoopConnectionPool.swift"
+  : [1694946380, 467788305]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/ConnectionPool/EventLoopGroupConnectionPool.swift"
+  : [1694946380, 468078927]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoop/EventLoop+Concurrency.swift"
+  : [1694946380, 468402548]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoop/EventLoop+Flatten.swift"
+  : [1694946380, 468505464]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoop/EventLoop+Future.swift"
+  : [1694946380, 468576338]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoop/EventLoopGroup+Concurrency.swift"
+  : [1694946380, 468636420]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoop/EventLoopGroup+Throwing.swift"
+  : [1694946380, 468896417]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Collection+Flatten.swift"
+  : [1694946380, 469085790]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/EventLoopFutureQueue+Sequence.swift"
+  : [1694946380, 469166164]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/EventLoopFutureQueue.swift"
+  : [1694946380, 469245663]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Collection.swift"
+  : [1694946380, 469338162]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Conjunctions.swift"
+  : [1694946380, 469470119]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Miscellaneous.swift"
+  : [1694946380, 469556951]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Nonempty.swift"
+  : [1694946380, 469619701]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Optional.swift"
+  : [1694946380, 469680742]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Transform.swift"
+  : [1694946380, 469739658]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Future+Try.swift"
+  : [1694946380, 469804615]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/FutureOperators.swift"
+  : [1694946380, 469871531]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/EventLoopFuture/Optional+StrictMap.swift"
+  : [1694946380, 469950905]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-kit/Sources/AsyncKit/Exports.swift": [1694946380, 470007238]

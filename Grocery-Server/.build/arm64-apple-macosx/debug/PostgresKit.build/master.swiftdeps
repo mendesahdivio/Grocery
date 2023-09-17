@@ -1,0 +1,30 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "eebea0bb6a5f65c4ba3f17ae728ce54a5a6e94ee2b1fe8055df29933c1322c3c"
+build_start_time: [1694946457, 529426000]
+build_end_time: [1694946459, 912664000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/ConnectionPool+Postgres.swift"
+  : [1694946375, 288810155]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresColumnType.swift"
+  : [1694946375, 288976737]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresConfiguration.swift"
+  : [1694946375, 289077360]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresConnectionSource+PostgresConfiguration.swift"
+  : [1694946375, 289157526]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresDataDecoder.swift"
+  : [1694946375, 289238567]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresDataEncoder.swift"
+  : [1694946375, 289534105]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/Deprecations/PostgresDatabase+SQL+Deprecated.swift"
+  : [1694946375, 289641771]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/Exports.swift": [1694946375, 289921309]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresConnectionSource.swift"
+  : [1694946375, 289996392]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresDataTranslation.swift"
+  : [1694946375, 290096390]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresDatabase+SQL.swift"
+  : [1694946375, 290259764]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresDialect.swift": [1694946375, 290527635]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/PostgresRow+SQL.swift": [1694946375, 290677467]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/postgres-kit/Sources/PostgresKit/SQLPostgresConfiguration.swift"
+  : [1694946375, 290941881]

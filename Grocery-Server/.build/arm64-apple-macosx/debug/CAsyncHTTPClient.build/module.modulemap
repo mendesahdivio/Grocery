@@ -1,0 +1,4 @@
+module CAsyncHTTPClient {
+    umbrella header "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/async-http-client/Sources/CAsyncHTTPClient/include/CAsyncHTTPClient.h"
+    export *
+}

@@ -1,0 +1,26 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "37f6da7128fbea55506a3e7cfca676db8206f5e79199b0ba726eb71e0a6fd9da"
+build_start_time: [1694946465, 101299000]
+build_end_time: [1694946466, 50093000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/Concurrency/FluentProvider+Concurrency.swift"
+  : [1694946377, 249778192]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/Concurrency/ModelCredentialsAuthenticatable+Concurrency.swift"
+  : [1694946377, 249871107]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/Concurrency/Pagination+Concurrency.swift"
+  : [1694946377, 249931857]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/Concurrency/Sessions+Concurrency.swift"
+  : [1694946377, 250149521]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/Exports.swift": [1694946377, 250303477]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/Fluent+Cache.swift": [1694946377, 250364018]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/Fluent+History.swift": [1694946377, 250427268]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/Fluent+Paginate.swift": [1694946377, 250483309]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/Fluent+Pagination.swift": [1694946377, 250547891]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/Fluent+Sessions.swift": [1694946377, 250606891]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/FluentProvider.swift": [1694946377, 250655432]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/MigrateCommand.swift": [1694946377, 250716348]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/ModelAuthenticatable.swift": [1694946377, 250768139]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/ModelCredentialsAuthenticatable.swift"
+  : [1694946377, 250822180]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/ModelTokenAuthenticatable.swift": [1694946377, 250883012]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent/Sources/Fluent/PageLimit.swift": [1694946377, 250938220]

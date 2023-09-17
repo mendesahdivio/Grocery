@@ -1,0 +1,4 @@
+module CBacktrace {
+    umbrella "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-backtrace/Sources/CBacktrace/include"
+    export *
+}

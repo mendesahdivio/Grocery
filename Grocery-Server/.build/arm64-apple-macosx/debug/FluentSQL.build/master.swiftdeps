@@ -1,0 +1,17 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "5f836a4cabfa08bcca27a5c44f3f9308d7d7161273168593692bd36534da7ff6"
+build_start_time: [1694946460, 790944000]
+build_end_time: [1694946461, 773980000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseQuery+SQL.swift": [1694946377, 800339838]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-kit/Sources/FluentSQL/DatabaseSchema+SQL.swift": [1694946377, 800405504]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-kit/Sources/FluentSQL/Exports.swift": [1694946377, 800578419]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLDatabase+Model+Concurrency.swift"
+  : [1694946377, 800805416]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLDatabase+Model.swift": [1694946377, 800894207]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLJSONColumnPath.swift": [1694946377, 801067080]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLList+Deprecated.swift": [1694946377, 801140037]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLQualifiedTable.swift": [1694946377, 801201287]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLQueryConverter.swift": [1694946377, 801308452]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-kit/Sources/FluentSQL/SQLSchemaConverter.swift": [1694946377, 801424242]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-kit/Sources/FluentSQL/Utilities.swift": [1694946377, 801535741]

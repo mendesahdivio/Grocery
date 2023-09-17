@@ -1,0 +1,115 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "cfcfd21a067dbde8ac24953dbc510a19a7038ca89d3103c7de685d90e0ea6f0b"
+build_start_time: [1694946450, 574604000]
+build_end_time: [1694946454, 857658000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/ConnectionStateMachine.swift"
+  : [1694946375, 762811644]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/ConnectionStreamsState.swift"
+  : [1694946375, 763072932]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/MayReceiveFrames.swift"
+  : [1694946375, 763222097]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/ReceivingDataState.swift"
+  : [1694946375, 763450345]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/ReceivingGoAwayState.swift"
+  : [1694946375, 763706258]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/ReceivingHeadersState.swift"
+  : [1694946375, 763798340]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/ReceivingPushPromiseState.swift"
+  : [1694946375, 764130337]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/ReceivingRstStreamState.swift"
+  : [1694946375, 764414250]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameReceivingStates/ReceivingWindowUpdateState.swift"
+  : [1694946375, 764635747]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/MaySendFrames.swift"
+  : [1694946375, 764813870]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/SendingDataState.swift"
+  : [1694946375, 764974202]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/SendingGoawayState.swift"
+  : [1694946375, 765127783]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/SendingHeadersState.swift"
+  : [1694946375, 765210366]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/SendingPushPromiseState.swift"
+  : [1694946375, 765535654]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/SendingRstStreamState.swift"
+  : [1694946375, 765630903]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/FrameSendingStates/SendingWindowUpdateState.swift"
+  : [1694946375, 765810609]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/HTTP2SettingsState.swift"
+  : [1694946375, 766454352]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/HasFlowControlWindows.swift"
+  : [1694946375, 766740015]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/HasLocalSettings.swift"
+  : [1694946375, 766818681]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/HasRemoteSettings.swift"
+  : [1694946375, 766918929]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/LocallyQuiescingState.swift"
+  : [1694946375, 767026970]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/QuiescingState.swift"
+  : [1694946375, 767106094]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/RemotelyQuiescingState.swift"
+  : [1694946375, 767175426]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/SendAndReceiveGoawayState.swift"
+  : [1694946375, 767238384]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ConnectionStateMachine/StateMachineResult.swift"
+  : [1694946375, 767314383]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/ContentLengthVerifier.swift"
+  : [1694946375, 767412215]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/DOSHeuristics.swift": [1694946375, 767497881]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/Frame Buffers/ConcurrentStreamBuffer.swift"
+  : [1694946375, 767924751]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/Frame Buffers/ControlFrameBuffer.swift"
+  : [1694946375, 768033708]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/Frame Buffers/OutboundFlowControlBuffer.swift"
+  : [1694946375, 768159832]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/Frame Buffers/OutboundFrameBuffer.swift"
+  : [1694946375, 768323746]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HPACKHeaders+Validation.swift"
+  : [1694946375, 768499036]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2ChannelHandler+InboundStreamMultiplexer.swift"
+  : [1694946375, 768781325]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2ChannelHandler+InlineStreamMultiplexer.swift"
+  : [1694946375, 769036322]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2ChannelHandler.swift"
+  : [1694946375, 769548441]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2CommonInboundStreamMultiplexer.swift"
+  : [1694946375, 769657314]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2ConnectionStateChange.swift"
+  : [1694946375, 769762147]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2Error.swift": [1694946375, 770075518]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2ErrorCode.swift": [1694946375, 770308224]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2FlowControlWindow.swift"
+  : [1694946375, 770377473]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2Frame.swift": [1694946375, 770516721]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2FrameEncoder.swift": [1694946375, 770706344]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2FrameParser.swift": [1694946375, 771140339]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2PingData.swift": [1694946375, 771240213]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2PipelineHelpers.swift"
+  : [1694946375, 771399461]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2Settings.swift": [1694946375, 771493335]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2Stream.swift": [1694946375, 771603750]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2StreamChannel+OutboundStreamMultiplexer.swift"
+  : [1694946375, 771771082]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2StreamChannel.swift"
+  : [1694946375, 772076495]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2StreamDelegate.swift"
+  : [1694946375, 772176160]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2StreamID.swift": [1694946375, 772238660]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2StreamMultiplexer.swift"
+  : [1694946375, 772319784]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2ToHTTP1Codec.swift": [1694946375, 772507948]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/HTTP2UserEvents.swift": [1694946375, 772623197]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/InboundEventBuffer.swift"
+  : [1694946375, 772706738]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/InboundWindowManager.swift"
+  : [1694946375, 772793320]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/MultiplexerAbstractChannel.swift"
+  : [1694946375, 772872069]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/StreamChannelFlowController.swift"
+  : [1694946375, 773018192]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/StreamChannelList.swift": [1694946375, 773089608]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/StreamMap.swift": [1694946375, 773184566]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/StreamStateMachine.swift"
+  : [1694946375, 773420979]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHTTP2/WatermarkedFlowController.swift"
+  : [1694946375, 773543061]

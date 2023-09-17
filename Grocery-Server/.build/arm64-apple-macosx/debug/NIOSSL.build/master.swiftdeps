@@ -1,0 +1,41 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "49c7c1dcbf7bca28b6db888d0be17bb5e5daed974c0dcf5c7b20e9b7d5d6a685"
+build_start_time: [1694946445, 269550000]
+build_end_time: [1694946451, 831980000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/ByteBufferBIO.swift": [1694946378, 697869397]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/CustomPrivateKey.swift": [1694946378, 698002354]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/IdentityVerification.swift": [1694946378, 698351308]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/LinuxCABundle.swift": [1694946378, 698565931]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLClientHandler.swift": [1694946378, 698896302]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLHandler.swift": [1694946378, 699551294]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/NIOSSLServerHandler.swift": [1694946378, 699637543]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/ObjectIdentifier.swift": [1694946378, 699729542]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/PosixPort.swift": [1694946378, 699806791]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLCallbacks.swift": [1694946378, 699910374]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLCertificate.swift": [1694946378, 700022539]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLCertificateExtensions.swift"
+  : [1694946378, 700118413]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLConnection.swift": [1694946378, 700381493]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLContext.swift": [1694946378, 700713448]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLErrors.swift": [1694946378, 700914112]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLInit.swift": [1694946378, 701044777]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPKCS12Bundle.swift": [1694946378, 701144401]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPrivateKey.swift": [1694946378, 701266108]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SSLPublicKey.swift": [1694946378, 701348690]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SecurityFrameworkCertificateVerification.swift"
+  : [1694946378, 701422231]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/String+unsafeUninitializedCapacity.swift"
+  : [1694946378, 701519855]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SubjectAlternativeName.swift"
+  : [1694946378, 701596187]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SwiftCrypto/NIOSSLSecureBytes.swift"
+  : [1694946378, 701759602]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SwiftCrypto/RNG.swift": [1694946378, 701859434]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SwiftCrypto/SafeCompare.swift"
+  : [1694946378, 701933475]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/SwiftCrypto/Zeroization.swift"
+  : [1694946378, 702165681]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/TLSConfiguration.swift": [1694946378, 702370512]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-ssl/Sources/NIOSSL/UniversalBootstrapSupport.swift"
+  : [1694946378, 702558968]

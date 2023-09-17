@@ -1,0 +1,27 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "0d620d33218cfb13af4478eff9e46023e7422fbf4dbdcd11e36dfe8b9097711c"
+build_start_time: [1694946443, 330554000]
+build_end_time: [1694946445, 333063000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOSOCKS/Channel Handlers/SOCKSClientHandler.swift"
+  : [1694946381, 116481902]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOSOCKS/Channel Handlers/SOCKSServerHandshakeHandler.swift"
+  : [1694946381, 116561193]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOSOCKS/Messages/AuthenticationMethod.swift"
+  : [1694946381, 116807274]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOSOCKS/Messages/ClientGreeting.swift"
+  : [1694946381, 117056812]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOSOCKS/Messages/Errors.swift": [1694946381, 117129645]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOSOCKS/Messages/Helpers.swift": [1694946381, 117199227]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOSOCKS/Messages/Messages.swift"
+  : [1694946381, 117269601]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOSOCKS/Messages/SOCKSRequest.swift"
+  : [1694946381, 117326726]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOSOCKS/Messages/SOCKSResponse.swift"
+  : [1694946381, 117385975]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOSOCKS/Messages/SelectedAuthenticationMethod.swift"
+  : [1694946381, 117443349]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOSOCKS/State/ClientStateMachine.swift"
+  : [1694946381, 117556807]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-extras/Sources/NIOSOCKS/State/ServerStateMachine.swift"
+  : [1694946381, 117626014]

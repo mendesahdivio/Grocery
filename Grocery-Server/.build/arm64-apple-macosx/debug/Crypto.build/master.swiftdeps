@@ -1,0 +1,110 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "d875876dcadc3e2cf613350c97eb6841812dcedcba9814ddfc878be5ffcdebb4"
+build_start_time: [1694946410, 916450000]
+build_end_time: [1694946421, 472390000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/AEADs/AES/GCM/AES-GCM.swift": [1694946380, 765076458]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/AEADs/AES/GCM/BoringSSL/AES-GCM_boring.swift"
+  : [1694946380, 765208331]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/AEADs/ChachaPoly/BoringSSL/ChaChaPoly_boring.swift"
+  : [1694946380, 765324455]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/AEADs/ChachaPoly/ChaChaPoly.swift"
+  : [1694946380, 765391287]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/AEADs/Cipher.swift": [1694946380, 765452662]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/AEADs/Nonces.swift": [1694946380, 765558285]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/ASN1.swift": [1694946380, 765864032]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/Basic ASN1 Types/ASN1Any.swift"
+  : [1694946380, 765983405]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/Basic ASN1 Types/ASN1BitString.swift"
+  : [1694946380, 766300735]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/Basic ASN1 Types/ASN1Boolean.swift"
+  : [1694946380, 766386401]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/Basic ASN1 Types/ASN1Identifier.swift"
+  : [1694946380, 766478067]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/Basic ASN1 Types/ASN1Integer.swift"
+  : [1694946380, 766540732]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/Basic ASN1 Types/ASN1Null.swift"
+  : [1694946380, 766619440]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/Basic ASN1 Types/ASN1OctetString.swift"
+  : [1694946380, 766708064]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/Basic ASN1 Types/ASN1Strings.swift"
+  : [1694946380, 766829646]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/Basic ASN1 Types/ArraySliceBigint.swift"
+  : [1694946380, 766907103]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/Basic ASN1 Types/GeneralizedTime.swift"
+  : [1694946380, 767071810]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/Basic ASN1 Types/ObjectIdentifier.swift"
+  : [1694946380, 767185892]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/ECDSASignature.swift": [1694946380, 767267141]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/PEMDocument.swift": [1694946380, 767353931]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/PKCS8PrivateKey.swift": [1694946380, 767456514]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/SEC1PrivateKey.swift": [1694946380, 767537554]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/ASN1/SubjectPublicKeyInfo.swift"
+  : [1694946380, 767625845]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/CryptoKitErrors.swift": [1694946380, 767762010]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Digests/BoringSSL/Digest_boring.swift"
+  : [1694946380, 768184630]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Digests/Digest.swift": [1694946380, 768334295]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Digests/Digests.swift": [1694946380, 768423044]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Digests/HashFunctions.swift": [1694946380, 768576251]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Digests/HashFunctions_SHA2.swift"
+  : [1694946380, 768827039]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Insecure/Insecure.swift": [1694946380, 768927663]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Insecure/Insecure_HashFunctions.swift"
+  : [1694946380, 769015579]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Key Agreement/BoringSSL/ECDH_boring.swift"
+  : [1694946380, 769688654]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Key Agreement/DH.swift": [1694946380, 769798570]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Key Agreement/ECDH.swift": [1694946380, 770175066]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Key Derivation/HKDF.swift": [1694946380, 770446521]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Key Wrapping/AESWrap.swift": [1694946380, 770639769]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Key Wrapping/BoringSSL/AESWrap_boring.swift"
+  : [1694946380, 770880057]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Keys/EC/BoringSSL/Ed25519_boring.swift"
+  : [1694946380, 771063430]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Keys/EC/BoringSSL/EllipticCurvePoint_boring.swift"
+  : [1694946380, 771452926]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Keys/EC/BoringSSL/EllipticCurve_boring.swift"
+  : [1694946380, 771560674]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Keys/EC/BoringSSL/NISTCurvesKeys_boring.swift"
+  : [1694946380, 771632049]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Keys/EC/BoringSSL/X25519Keys_boring.swift"
+  : [1694946380, 771750631]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Keys/EC/Curve25519.swift": [1694946380, 772154709]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Keys/EC/Ed25519.swift": [1694946380, 772250333]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Keys/EC/NISTCurvesKeys.swift": [1694946380, 772324332]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Keys/EC/X25519Keys.swift": [1694946380, 772395831]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Keys/Symmetric/SymmetricKeys.swift"
+  : [1694946380, 772536455]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Message Authentication Codes/HMAC/HMAC.swift"
+  : [1694946380, 772839618]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Message Authentication Codes/MACFunctions.swift"
+  : [1694946380, 772910284]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Message Authentication Codes/MessageAuthenticationCode.swift"
+  : [1694946380, 772974325]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/PRF/AES.swift": [1694946380, 773105240]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Signatures/BoringSSL/ECDSASignature_boring.swift"
+  : [1694946380, 773360695]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Signatures/BoringSSL/ECDSA_boring.swift"
+  : [1694946380, 773446403]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Signatures/BoringSSL/EdDSA_boring.swift"
+  : [1694946380, 773531902]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Signatures/ECDSA.swift": [1694946380, 773637525]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Signatures/EdDSA.swift": [1694946380, 773792607]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Signatures/Signature.swift": [1694946380, 773871148]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Util/BoringSSL/ArbitraryPrecisionInteger_boring.swift"
+  : [1694946380, 774100520]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Util/BoringSSL/CryptoKitErrors_boring.swift"
+  : [1694946380, 774592931]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Util/BoringSSL/FiniteFieldArithmeticContext_boring.swift"
+  : [1694946380, 774764804]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Util/BoringSSL/RNG_boring.swift"
+  : [1694946380, 774971968]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Util/BoringSSL/SafeCompare_boring.swift"
+  : [1694946380, 775056634]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Util/BoringSSL/Zeroization_boring.swift"
+  : [1694946380, 775163716]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Util/PrettyBytes.swift": [1694946380, 775246465]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Util/SafeCompare.swift": [1694946380, 775305048]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Util/SecureBytes.swift": [1694946380, 775548962]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-crypto/Sources/Crypto/Util/Zeroization.swift": [1694946380, 775627419]

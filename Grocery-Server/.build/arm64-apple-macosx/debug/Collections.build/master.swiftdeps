@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "a0212ad49ac8bd4bf52d53c3f1a2a679a205c01b9f908fabd2ff5ee8871ed60a"
+build_start_time: [1694946415, 786612000]
+build_end_time: [1694946415, 934301000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/Collections/Collections.swift": [1694946376, 554947669]

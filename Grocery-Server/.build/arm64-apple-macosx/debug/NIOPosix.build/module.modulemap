@@ -1,0 +1,4 @@
+module NIOPosix {
+    header "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/NIOPosix.build/NIOPosix-Swift.h"
+    requires objc
+}

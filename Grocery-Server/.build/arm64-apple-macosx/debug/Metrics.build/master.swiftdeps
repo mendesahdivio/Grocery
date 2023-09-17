@@ -1,0 +1,6 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "b7792c6641504015165649fe707937297a6042adf904e225c7b9bbafd0a55b93"
+build_start_time: [1694946414, 981494000]
+build_end_time: [1694946421, 580324000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-metrics/Sources/Metrics/Metrics.swift": [1694946381, 760047434]

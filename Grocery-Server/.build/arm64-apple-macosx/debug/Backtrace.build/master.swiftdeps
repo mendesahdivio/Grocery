@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "88ff587442b332442e84bacc0a37efc59e5a956fd0e4c381ec5558c646fddfd7"
+build_start_time: [1694946438, 271518000]
+build_end_time: [1694946438, 407605000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-backtrace/Sources/Backtrace/Backtrace.swift": [1694946376, 149455806]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-backtrace/Sources/Backtrace/Demangle.swift": [1694946376, 149553055]

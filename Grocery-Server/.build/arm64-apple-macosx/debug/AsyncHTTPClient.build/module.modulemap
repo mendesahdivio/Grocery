@@ -1,0 +1,4 @@
+module AsyncHTTPClient {
+    header "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/AsyncHTTPClient.build/AsyncHTTPClient-Swift.h"
+    requires objc
+}

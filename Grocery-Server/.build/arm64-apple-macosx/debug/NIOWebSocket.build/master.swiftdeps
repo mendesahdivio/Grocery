@@ -1,0 +1,22 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "5f82cbef0643d60f46e9c60f7cfc7905e29b3ab03708e8547856c969cc7d3db4"
+build_start_time: [1694946447, 222639000]
+build_end_time: [1694946449, 847719000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOWebSocket/Base64.swift": [1694946379, 242215865]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOWebSocket/NIOWebSocketClientUpgrader.swift"
+  : [1694946379, 242338030]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOWebSocket/NIOWebSocketFrameAggregator.swift"
+  : [1694946379, 242476820]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOWebSocket/NIOWebSocketServerUpgrader.swift"
+  : [1694946379, 242572403]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOWebSocket/SHA1.swift": [1694946379, 242647568]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketErrorCodes.swift": [1694946379, 242719693]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketFrame.swift": [1694946379, 242781984]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketFrameDecoder.swift"
+  : [1694946379, 242886316]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketFrameEncoder.swift"
+  : [1694946379, 243263436]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketOpcode.swift": [1694946379, 243344310]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOWebSocket/WebSocketProtocolErrorHandler.swift"
+  : [1694946379, 243443351]

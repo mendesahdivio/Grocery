@@ -1,0 +1,80 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "1f1c5bdd93468c3296e20469d5bf434f2ed73535ba70ea6707969f434584f3d1"
+build_start_time: [1694946415, 656717000]
+build_end_time: [1694946421, 610030000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/ActivityBar.swift"
+  : [1694946379, 710412212]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/ActivityIndicator.swift"
+  : [1694946379, 710489294]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/ActivityIndicatorRenderer.swift"
+  : [1694946379, 710553836]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/ActivityIndicatorState.swift"
+  : [1694946379, 710611585]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/CustomActivity.swift"
+  : [1694946379, 710685667]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/LoadingBar.swift": [1694946379, 710751208]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Activity/ProgressBar.swift"
+  : [1694946379, 710824332]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Clear/Console+Clear.swift": [1694946379, 710930373]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Clear/Console+Ephemeral.swift"
+  : [1694946379, 711047705]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Clear/ConsoleClear.swift": [1694946379, 711108579]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/AnyCommand.swift": [1694946379, 711208786]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Argument.swift": [1694946379, 711288202]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Async/AnyAsyncCommand.swift"
+  : [1694946379, 711387201]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Async/AsyncCommand.swift"
+  : [1694946379, 711635490]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Async/AsyncCommandGroup.swift"
+  : [1694946379, 711706280]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Async/AsyncCommands.swift"
+  : [1694946379, 711777530]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Command.swift": [1694946379, 711868737]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/CommandContext.swift"
+  : [1694946379, 711953986]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/CommandError.swift"
+  : [1694946379, 712018443]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/CommandGroup.swift"
+  : [1694946379, 712249774]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/CommandInput.swift"
+  : [1694946379, 712324107]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/CommandSignature.swift"
+  : [1694946379, 712392689]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Commands.swift": [1694946379, 712459355]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Completion.swift": [1694946379, 712571979]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Console+Run.swift": [1694946379, 712649728]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Flag.swift": [1694946379, 712726060]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Option.swift": [1694946379, 712786393]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Command/Utilities.swift": [1694946379, 712848309]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Console.swift": [1694946379, 712914892]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Input/Console+Ask.swift": [1694946379, 713362095]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Input/Console+Choose.swift"
+  : [1694946379, 713431135]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Input/Console+Confirm.swift"
+  : [1694946379, 713494677]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Input/Console+Input.swift": [1694946379, 713556342]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Output/Console+Center.swift"
+  : [1694946379, 713664258]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Output/Console+Output.swift"
+  : [1694946379, 713867255]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Output/Console+Wait.swift": [1694946379, 713932213]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Output/ConsoleColor.swift": [1694946379, 713997754]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Output/ConsoleStyle.swift": [1694946379, 714061628]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Output/ConsoleText.swift": [1694946379, 714140044]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Output/ConsoleTextFragment.swift"
+  : [1694946379, 714199668]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Terminal/ANSI.swift": [1694946379, 714314334]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Terminal/Terminal.swift": [1694946379, 714393583]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Terminal/readpassphrase_linux.swift"
+  : [1694946379, 714475373]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Utilities/ConsoleError.swift"
+  : [1694946379, 714564498]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Utilities/ConsoleLogger.swift"
+  : [1694946379, 714643663]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Utilities/GenerateAsyncAutocompleteCommand.swift"
+  : [1694946379, 714719412]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Utilities/GenerateAutocompleteCommand.swift"
+  : [1694946379, 714787078]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/console-kit/Sources/ConsoleKit/Utilities/String+LevenshteinDistance.swift"
+  : [1694946379, 714851536]

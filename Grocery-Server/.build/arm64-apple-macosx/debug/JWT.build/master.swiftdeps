@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "c446481edbdb631dca29a37bd329adb25560a998646a5f3150a74ce8eefa5da3"
+build_start_time: [1694946465, 100942000]
+build_end_time: [1694946465, 945499000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/jwt/Sources/JWT/Application+JWT.swift": [1694946380, 294464722]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/jwt/Sources/JWT/AsyncJWTAuthenticator.swift": [1694946380, 294616970]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/jwt/Sources/JWT/Exports.swift": [1694946380, 294812593]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/jwt/Sources/JWT/JWKSCache.swift": [1694946380, 294910342]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/jwt/Sources/JWT/JWT+Apple.swift": [1694946380, 295104339]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/jwt/Sources/JWT/JWT+Concurrency.swift": [1694946380, 295193088]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/jwt/Sources/JWT/JWT+Google.swift": [1694946380, 295268588]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/jwt/Sources/JWT/JWT+Microsoft.swift": [1694946380, 295330379]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/jwt/Sources/JWT/JWTAuthenticator.swift": [1694946380, 295414336]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/jwt/Sources/JWT/JWTError+Vapor.swift": [1694946380, 295471252]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/jwt/Sources/JWT/Request+JWT.swift": [1694946380, 295534585]

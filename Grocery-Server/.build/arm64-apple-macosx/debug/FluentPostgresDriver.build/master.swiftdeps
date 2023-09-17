@@ -1,0 +1,23 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "05de1378c16cb28555829625759a43a1b9fe90a2d8390e6f7e8d336cb662afdd"
+build_start_time: [1694946462, 69350000]
+build_end_time: [1694946462, 998190000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/DatabaseID+PostgreSQL.swift"
+  : [1694946377, 602803535]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/Deprecations/FluentPostgresConfiguration+Deprecated.swift"
+  : [1694946377, 602923116]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/Exports.swift"
+  : [1694946377, 603329237]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/FluentPostgresConfiguration.swift"
+  : [1694946377, 603404736]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/FluentPostgresDatabase.swift"
+  : [1694946377, 603485652]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/FluentPostgresDriver.swift"
+  : [1694946377, 603549984]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/PostgresConverterDelegate.swift"
+  : [1694946377, 603619358]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/PostgresError+Database.swift"
+  : [1694946377, 603688233]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/fluent-postgres-driver/Sources/FluentPostgresDriver/PostgresRow+Database.swift"
+  : [1694946377, 603749524]

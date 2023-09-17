@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "663b0b5ae661fa471c9866ee7c5b330b61e23e3ebafa03682204d155320d810c"
+build_start_time: [1694946466, 139872000]
+build_end_time: [1694946468, 512329000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/Migrations/CreateUsersTableMigration.swift": [1694946262, 92367474]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/configure.swift": [1694946262, 97998325]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/entrypoint.swift": [1694842995, 491489691]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/routes.swift": [1694842995, 521433293]

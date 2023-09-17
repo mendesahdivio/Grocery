@@ -1,0 +1,7 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "e33b74267b10b55993a86460e728ad9d15212ae68041296e6e9fc82bca001033"
+build_start_time: [1694946411, 127923000]
+build_end_time: [1694946414, 340916000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-metrics/Sources/CoreMetrics/Locks.swift": [1694946381, 759631688]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-metrics/Sources/CoreMetrics/Metrics.swift": [1694946381, 759822270]

@@ -1,0 +1,16 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "336b9f32516161a04d40f17dee71283f8ca62b70606cfb592f4201d896c3dc8e"
+build_start_time: [1694946451, 958450000]
+build_end_time: [1694946453, 326002000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/websocket-kit/Sources/WebSocketKit/Concurrency/WebSocket+Concurrency.swift"
+  : [1694946381, 579194312]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/websocket-kit/Sources/WebSocketKit/Exports.swift": [1694946381, 579348311]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/websocket-kit/Sources/WebSocketKit/HTTPUpgradeRequestHandler.swift"
+  : [1694946381, 579427810]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket+Connect.swift"
+  : [1694946381, 579621349]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocket.swift": [1694946381, 580082469]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketClient.swift": [1694946381, 580319799]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/websocket-kit/Sources/WebSocketKit/WebSocketHandler.swift"
+  : [1694946381, 580515464]

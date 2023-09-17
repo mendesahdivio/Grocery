@@ -1,0 +1,84 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "22d8d7d5fbdf14f27919be13855a55c5c5f10185e2dff5b1c3213a4235e5c2f8"
+build_start_time: [1694946435, 880392000]
+build_end_time: [1694946441, 166273000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ActorExecutor.swift": [1694946379, 209521534]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/AddressedEnvelope.swift": [1694946379, 209605325]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncAwaitSupport.swift": [1694946379, 209690782]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncChannel/AsyncChannel.swift"
+  : [1694946379, 209881530]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncChannel/AsyncChannelInboundStream.swift"
+  : [1694946379, 210089778]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncChannel/AsyncChannelInboundStreamChannelHandler.swift"
+  : [1694946379, 210450815]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncChannel/AsyncChannelOutboundWriter.swift"
+  : [1694946379, 210704895]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncChannel/AsyncChannelOutboundWriterHandler.swift"
+  : [1694946379, 210836144]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncChannel/CloseRatchet.swift"
+  : [1694946379, 210916476]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncSequences/NIOAsyncSequenceProducer.swift"
+  : [1694946379, 211052266]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncSequences/NIOAsyncSequenceProducerStrategies.swift"
+  : [1694946379, 211132849]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncSequences/NIOAsyncWriter.swift"
+  : [1694946379, 211429137]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/AsyncSequences/NIOThrowingAsyncSequenceProducer.swift"
+  : [1694946379, 211636468]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/BSDSocketAPI.swift": [1694946379, 211896173]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-aux.swift": [1694946379, 212184337]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-conversions.swift": [1694946379, 212275544]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-core.swift": [1694946379, 212658331]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-int.swift": [1694946379, 212830538]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-lengthPrefix.swift": [1694946379, 213056118]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-multi-int.swift": [1694946379, 213244949]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ByteBuffer-views.swift": [1694946379, 213352323]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/Channel.swift": [1694946379, 213463614]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ChannelHandler.swift": [1694946379, 213585654]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ChannelHandlers.swift": [1694946379, 213877692]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ChannelInvoker.swift": [1694946379, 214058107]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ChannelOption.swift": [1694946379, 214383270]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ChannelPipeline.swift": [1694946379, 214620434]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/CircularBuffer.swift": [1694946379, 214905389]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/Codec.swift": [1694946379, 215097970]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/ConvenienceOptionSupport.swift": [1694946379, 215226135]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/DeadChannel.swift": [1694946379, 215302051]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/DispatchQueue+WithFuture.swift": [1694946379, 215401883]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/EventLoop+Deprecated.swift": [1694946379, 215813503]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/EventLoop.swift": [1694946379, 216178541]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/EventLoopFuture+Deprecated.swift"
+  : [1694946379, 216250831]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/EventLoopFuture+WithEventLoop.swift"
+  : [1694946379, 216358372]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/EventLoopFuture.swift": [1694946379, 216616369]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/FileDescriptor.swift": [1694946379, 216704826]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/FileHandle.swift": [1694946379, 216911115]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/FileRegion.swift": [1694946379, 217021947]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/GlobalSingletons.swift": [1694946379, 217234945]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/IO.swift": [1694946379, 217454484]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/IOData.swift": [1694946379, 217562441]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/IPProtocol.swift": [1694946379, 217702440]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/IntegerBitPacking.swift": [1694946379, 217803730]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/IntegerTypes.swift": [1694946379, 218097019]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/Interfaces.swift": [1694946379, 218304391]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/Linux.swift": [1694946379, 218498389]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/MarkedCircularBuffer.swift": [1694946379, 218592555]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/MulticastChannel.swift": [1694946379, 218799760]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/NIOAny.swift": [1694946379, 219443295]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/NIOCloseOnErrorHandler.swift": [1694946379, 219709625]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/NIOLoopBound.swift": [1694946379, 219792374]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/NIOSendable.swift": [1694946379, 219972872]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/PointerHelpers.swift": [1694946379, 220051913]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/RecvByteBufferAllocator.swift": [1694946379, 220152245]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/SingleStepByteToMessageDecoder.swift"
+  : [1694946379, 220382867]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/SocketAddresses.swift": [1694946379, 220560115]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/SocketOptionProvider.swift": [1694946379, 220697738]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/SystemCallHelpers.swift": [1694946379, 220785571]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/TimeAmount+Duration.swift": [1694946379, 220917069]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/TypeAssistedChannelHandler.swift"
+  : [1694946379, 221444397]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/UniversalBootstrapSupport.swift"
+  : [1694946379, 221753643]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOCore/Utilities.swift": [1694946379, 221900891]

@@ -1,0 +1,9 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "8e0f4395137e41e4a77ba2f2843aa01efceeaa9750a4fb8fa0395e5b8c2648a9"
+build_start_time: [1694946410, 964555000]
+build_end_time: [1694946414, 852184000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-log/Sources/Logging/Locks.swift": [1694946377, 424761048]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-log/Sources/Logging/LogHandler.swift": [1694946377, 424862713]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-log/Sources/Logging/Logging.swift": [1694946377, 425314458]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-log/Sources/Logging/MetadataProvider.swift": [1694946377, 425437165]

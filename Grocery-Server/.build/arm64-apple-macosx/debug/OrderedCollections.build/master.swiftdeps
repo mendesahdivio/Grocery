@@ -1,0 +1,105 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "66331b81a0f72bb1f9761e5ff9e5595e6c205ed6aa1fe00fea821b5d920e1d6f"
+build_start_time: [1694946410, 645304000]
+build_end_time: [1694946415, 254565000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+Bucket.swift"
+  : [1694946376, 557928801]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+BucketIterator.swift"
+  : [1694946376, 558044675]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+Constants.swift"
+  : [1694946376, 558117174]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+CustomStringConvertible.swift"
+  : [1694946376, 558335505]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+Testing.swift"
+  : [1694946376, 558395087]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable+UnsafeHandle.swift"
+  : [1694946376, 558672251]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_HashTable.swift"
+  : [1694946376, 558776875]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/HashTable/_Hashtable+Header.swift"
+  : [1694946376, 558877998]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Codable.swift"
+  : [1694946376, 559474783]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+CustomDebugStringConvertible.swift"
+  : [1694946376, 559538741]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+CustomReflectable.swift"
+  : [1694946376, 559594157]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+CustomStringConvertible.swift"
+  : [1694946376, 559652489]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Deprecations.swift"
+  : [1694946376, 560309024]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Elements+SubSequence.swift"
+  : [1694946376, 560410481]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Elements.swift"
+  : [1694946376, 560500521]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Equatable.swift"
+  : [1694946376, 560575312]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+ExpressibleByDictionaryLiteral.swift"
+  : [1694946376, 560641895]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Hashable.swift"
+  : [1694946376, 560697477]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Initializers.swift"
+  : [1694946376, 560885350]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Invariants.swift"
+  : [1694946376, 560988807]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Partial MutableCollection.swift"
+  : [1694946376, 561137347]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Partial RangeReplaceableCollection.swift"
+  : [1694946376, 561267887]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Sequence.swift"
+  : [1694946376, 561338845]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary+Values.swift"
+  : [1694946376, 561454927]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedDictionary/OrderedDictionary.swift"
+  : [1694946376, 561561676]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Codable.swift"
+  : [1694946376, 561707382]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+CustomDebugStringConvertible.swift"
+  : [1694946376, 561772632]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+CustomReflectable.swift"
+  : [1694946376, 561830881]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+CustomStringConvertible.swift"
+  : [1694946376, 561883089]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Diffing.swift"
+  : [1694946376, 561954421]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Equatable.swift"
+  : [1694946376, 562015754]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+ExpressibleByArrayLiteral.swift"
+  : [1694946376, 562071170]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Hashable.swift"
+  : [1694946376, 562126378]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Initializers.swift"
+  : [1694946376, 562196293]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Insertions.swift"
+  : [1694946376, 562278459]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Invariants.swift"
+  : [1694946376, 562337375]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial MutableCollection.swift"
+  : [1694946376, 562424957]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial RangeReplaceableCollection.swift"
+  : [1694946376, 562495665]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra+Basics.swift"
+  : [1694946376, 562627288]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra+Operations.swift"
+  : [1694946376, 562716996]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Partial SetAlgebra+Predicates.swift"
+  : [1694946376, 562816161]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+RandomAccessCollection.swift"
+  : [1694946376, 562913327]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+ReserveCapacity.swift"
+  : [1694946376, 562978493]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+SubSequence.swift"
+  : [1694946376, 563052325]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+Testing.swift"
+  : [1694946376, 563123116]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+UnorderedView.swift"
+  : [1694946376, 563334489]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet+UnstableInternals.swift"
+  : [1694946376, 563421446]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/OrderedSet/OrderedSet.swift"
+  : [1694946376, 563689943]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/Utilities/RandomAccessCollection+Offsets.swift"
+  : [1694946376, 563807608]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-collections/Sources/OrderedCollections/Utilities/_UnsafeBitset.swift"
+  : [1694946376, 563907524]

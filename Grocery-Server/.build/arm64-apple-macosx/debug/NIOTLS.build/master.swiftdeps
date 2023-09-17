@@ -1,0 +1,13 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "43e9e157d146f3cfefd87274b19b24165e60712ad8c37dbf32c940c2a36d83d7"
+build_start_time: [1694946443, 312907000]
+build_end_time: [1694946445, 148993000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOTLS/ApplicationProtocolNegotiationHandler.swift"
+  : [1694946379, 240654175]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOTLS/NIOTypedApplicationProtocolNegotiationHandler.swift"
+  : [1694946379, 240836340]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOTLS/ProtocolNegotiationHandlerStateMachine.swift"
+  : [1694946379, 240942088]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOTLS/SNIHandler.swift": [1694946379, 241071003]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOTLS/TLSEvents.swift": [1694946379, 241297917]

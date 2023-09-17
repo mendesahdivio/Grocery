@@ -1,0 +1,10 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "984de069e766680ac57b0fa84fe320ed3f4e230a8910da423bd004abd367384c"
+build_start_time: [1694946415, 375145000]
+build_end_time: [1694946421, 188591000]
+inputs:
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/routing-kit/Sources/RoutingKit/AnyRouter.swift": [1694946376, 329874183]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/routing-kit/Sources/RoutingKit/Parameters.swift": [1694946376, 330233095]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/routing-kit/Sources/RoutingKit/PathComponent.swift": [1694946376, 330302761]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/routing-kit/Sources/RoutingKit/Router.swift": [1694946376, 330719965]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/routing-kit/Sources/RoutingKit/TrieRouter.swift": [1694946376, 330899671]

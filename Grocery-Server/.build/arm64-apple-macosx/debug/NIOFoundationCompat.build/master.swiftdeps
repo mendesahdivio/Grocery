@@ -1,0 +1,11 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "6bb65028c381c34a88db5a11a16a546a55371f218bbef11392e1a6435c7c1324"
+build_start_time: [1694946443, 322796000]
+build_end_time: [1694946445, 843689000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOFoundationCompat/ByteBuffer-foundation.swift"
+  : [1694946379, 224286364]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOFoundationCompat/Codable+ByteBuffer.swift"
+  : [1694946379, 224982064]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/NIOFoundationCompat/JSONSerialization+ByteBuffer.swift"
+  : [1694946379, 225054772]

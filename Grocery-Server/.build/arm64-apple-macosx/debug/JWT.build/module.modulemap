@@ -1,0 +1,4 @@
+module JWT {
+    header "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/JWT.build/JWT-Swift.h"
+    requires objc
+}

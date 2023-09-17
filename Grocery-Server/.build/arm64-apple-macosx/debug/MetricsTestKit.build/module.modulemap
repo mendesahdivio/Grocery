@@ -1,0 +1,4 @@
+module MetricsTestKit {
+    header "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/MetricsTestKit.build/MetricsTestKit-Swift.h"
+    requires objc
+}

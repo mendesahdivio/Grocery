@@ -1,0 +1,4 @@
+module CNIOAtomics {
+    umbrella header "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio/Sources/CNIOAtomics/include/CNIOAtomics.h"
+    export *
+}

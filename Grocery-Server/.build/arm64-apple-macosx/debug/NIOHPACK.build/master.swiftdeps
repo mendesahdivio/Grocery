@@ -1,0 +1,18 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "7c80309d3b8c33556a0f48bae5be13e5714a8b1d9095032045e6d81d54baa253"
+build_start_time: [1694946447, 143837000]
+build_end_time: [1694946450, 461435000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/DynamicHeaderTable.swift"
+  : [1694946375, 759679680]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKDecoder.swift": [1694946375, 759784220]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKEncoder.swift": [1694946375, 760062925]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKErrors.swift": [1694946375, 760151591]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HPACKHeader.swift": [1694946375, 760319964]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HeaderTables.swift": [1694946375, 760446046]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanCoding.swift": [1694946375, 760533670]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/HuffmanTables.swift": [1694946375, 761176912]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IndexedHeaderTable.swift"
+  : [1694946375, 761512617]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/IntegerCoding.swift": [1694946375, 761807322]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/swift-nio-http2/Sources/NIOHPACK/StaticHeaderTable.swift": [1694946375, 761883404]

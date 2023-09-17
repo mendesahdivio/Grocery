@@ -1,0 +1,124 @@
+version: "Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)"
+options: "08ebafd43f1bb033bb105035f2f917996e2e3fdec4bb3b10bb955499f1fe431a"
+build_start_time: [1694946443, 330565000]
+build_end_time: [1694946450, 866103000]
+inputs:
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLAlterEnumBuilder.swift"
+  : [1694946379, 504050552]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLAlterTableBuilder.swift"
+  : [1694946379, 504199133]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLColumnUpdateBuilder.swift"
+  : [1694946379, 504419881]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLConflictUpdateBuilder.swift"
+  : [1694946379, 504541713]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateEnumBuilder.swift"
+  : [1694946379, 504597546]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateIndexBuilder.swift"
+  : [1694946379, 504665795]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateTableAsSubqueryBuilder.swift"
+  : [1694946379, 504725794]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateTableBuilder.swift"
+  : [1694946379, 504779543]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLCreateTriggerBuilder.swift"
+  : [1694946379, 504829001]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDeleteBuilder.swift": [1694946379, 504888792]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropEnumBuilder.swift": [1694946379, 504942458]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropIndexBuilder.swift"
+  : [1694946379, 505006958]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropTableBuilder.swift"
+  : [1694946379, 505068249]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLDropTriggerBuilder.swift"
+  : [1694946379, 505124748]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLInsertBuilder.swift": [1694946379, 505197372]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLJoinBuilder.swift": [1694946379, 505429036]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLPartialResultBuilder.swift"
+  : [1694946379, 505502660]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLPredicateBuilder.swift"
+  : [1694946379, 505627784]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLPredicateGroupBuilder.swift"
+  : [1694946379, 505729824]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLQueryBuilder.swift": [1694946379, 505784282]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLQueryFetcher.swift": [1694946379, 505875531]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLRawBuilder.swift": [1694946379, 505932530]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLReturningBuilder.swift"
+  : [1694946379, 505996279]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSecondaryPredicateBuilder.swift"
+  : [1694946379, 506056404]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSecondaryPredicateGroupBuilder.swift"
+  : [1694946379, 506112611]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSelectBuilder.swift": [1694946379, 506211819]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLSubqeryClauseBuilder.swift"
+  : [1694946379, 506433358]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLUnionBuilder.swift": [1694946379, 506519023]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Builders/SQLUpdateBuilder.swift": [1694946379, 506595148]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Concurrency/SQLDatabase+Concurrency.swift"
+  : [1694946379, 506700688]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Concurrency/SQLQueryBuilder+Concurrency.swift"
+  : [1694946379, 506767396]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Concurrency/SQLQueryFetcher+Concurrency.swift"
+  : [1694946379, 506839936]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Exports.swift": [1694946379, 507035101]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlias.swift": [1694946379, 507135725]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlterColumnDefinitionType.swift"
+  : [1694946379, 507207057]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlterEnum.swift": [1694946379, 507289931]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLAlterTable.swift": [1694946379, 507407638]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLBinaryExpression.swift": [1694946379, 507467971]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLBinaryOperator.swift": [1694946379, 507531178]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLBind.swift": [1694946379, 507587511]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnAssignment.swift": [1694946379, 507691135]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnConstraintAlgorithm.swift"
+  : [1694946379, 507826967]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnDefinition.swift": [1694946379, 508015339]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLColumnIdentifier.swift": [1694946379, 508078214]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLConflictAction.swift": [1694946379, 508145380]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLConflictResolutionStrategy.swift"
+  : [1694946379, 508239379]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLConstraint.swift": [1694946379, 508301669]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateEnum.swift": [1694946379, 508360794]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateIndex.swift": [1694946379, 508411210]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateTable.swift": [1694946379, 508475793]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLCreateTrigger.swift": [1694946379, 508528042]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDataType.swift": [1694946379, 508590583]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDelete.swift": [1694946379, 508650082]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDirection.swift": [1694946379, 508707290]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDistinct.swift": [1694946379, 508761664]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropBehaviour.swift": [1694946379, 508818872]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropEnum.swift": [1694946379, 508882371]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropIndex.swift": [1694946379, 508942870]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropTable.swift": [1694946379, 509003578]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLDropTrigger.swift": [1694946379, 509052619]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLEnumDataType.swift": [1694946379, 509109410]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLExcludedColumn.swift": [1694946379, 509179826]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLForeignKey.swift": [1694946379, 509240825]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLForeignKeyAction.swift": [1694946379, 509451531]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLFunction.swift": [1694946379, 509512281]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLGroupExpression.swift": [1694946379, 509573030]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLIdentifier.swift": [1694946379, 509633904]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLInsert.swift": [1694946379, 509716570]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLJoin.swift": [1694946379, 509777819]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLJoinMethod.swift": [1694946379, 509838402]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLList.swift": [1694946379, 509905359]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLLiteral.swift": [1694946379, 509961234]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLLockingClause.swift": [1694946379, 510027025]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLNestedSubpathExpression.swift"
+  : [1694946379, 510092607]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLOrderBy.swift": [1694946379, 510147690]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLQueryString.swift": [1694946379, 510226647]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLRaw.swift": [1694946379, 510290022]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLReturning.swift": [1694946379, 510344771]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLSelect.swift": [1694946379, 510414437]
+  ? "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLTableConstraintAlgorithm.swift"
+  : [1694946379, 510489894]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLUnion.swift": [1694946379, 510557560]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/Query/SQLUpdate.swift": [1694946379, 510616351]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/SQLDatabase.swift": [1694946379, 510704600]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/SQLDatabaseReportedVersion.swift": [1694946379, 510811391]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/SQLDialect.swift": [1694946379, 510942139]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/SQLError.swift": [1694946379, 511025971]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/SQLExpression.swift": [1694946379, 511211553]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/SQLQueryEncoder.swift": [1694946379, 511346009]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/SQLRow.swift": [1694946379, 511427925]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/SQLRowDecoder.swift": [1694946379, 511534757]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/SQLSerializer.swift": [1694946379, 511609006]
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/checkouts/sql-kit/Sources/SQLKit/SQLStatement.swift": [1694946379, 511689380]
