@@ -12,7 +12,32 @@ import Fluent
 final class UserController: RouteCollection {
   func boot(routes: RoutesBuilder) throws {
     let api = routes.grouped("api")
+    //api/register
     api.post("register", use: register)
+    
+    //api/login
+    api.post("login", use: login)
+  }
+  
+  
+  func login(req: Request) async throws -> LoginResponseDTO {
+    let user = try req.content.decode(User.self)
+    
+    //find if the user already exist in the database
+    guard let exsitingUser = try await User.query(on: req.db).filter(\.$username == user.username).first() else {
+      throw Abort(.unauthorized, reason: "Username doesnt exist please sign up before you try to login")
+    }
+    
+    //validate the password
+    let isVerified = try await req.password.async.verify(user.password, created: exsitingUser.password)
+    
+    if !isVerified {
+      throw Abort(.unauthorized)
+    }
+    
+    //generate the jwt token
+    let authPayload = try AuthPayload(expiration: .init(value: .distantFuture), userId: exsitingUser.requireID())
+    return try LoginResponseDTO(error: false, token: req.jwt.sign(authPayload), userId: exsitingUser.requireID())
   }
   
   
