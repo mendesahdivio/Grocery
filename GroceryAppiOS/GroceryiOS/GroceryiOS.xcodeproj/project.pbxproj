@@ -23,6 +23,8 @@
 		C08086642AB6FBE80040832D /* GroceryiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08086632AB6FBE80040832D /* GroceryiOSTests.swift */; };
 		C080866E2AB6FBE80040832D /* GroceryiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080866D2AB6FBE80040832D /* GroceryiOSUITests.swift */; };
 		C08086702AB6FBE80040832D /* GroceryiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080866F2AB6FBE80040832D /* GroceryiOSUITestsLaunchTests.swift */; };
+		C0F9445A2AC0B37600F91278 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F944592AC0B37600F91278 /* AppState.swift */; };
+		C0FF89642ABAB334004CA452 /* ThingsToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FF89632ABAB333004CA452 /* ThingsToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		C08086692AB6FBE80040832D /* GroceryiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C080866D2AB6FBE80040832D /* GroceryiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryiOSUITests.swift; sourceTree = "<group>"; };
 		C080866F2AB6FBE80040832D /* GroceryiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0F944592AC0B37600F91278 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		C0FF89632ABAB333004CA452 /* ThingsToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -163,6 +167,7 @@
 		C08086512AB6FBE70040832D /* GroceryiOS */ = {
 			isa = PBXGroup;
 			children = (
+				C0F944582AC0B35D00F91278 /* AppState */,
 				C06747592AB9CF560072F4FE /* Utils */,
 				C06747542AB9CDCD0072F4FE /* Models */,
 				C06747512AB98DF00072F4FE /* Client */,
@@ -173,6 +178,7 @@
 				C08086542AB6FBE70040832D /* ContentView.swift */,
 				C08086562AB6FBE80040832D /* Assets.xcassets */,
 				C08086582AB6FBE80040832D /* Preview Content */,
+				C0FF89632ABAB333004CA452 /* ThingsToDo.swift */,
 			);
 			path = GroceryiOS;
 			sourceTree = "<group>";
@@ -200,6 +206,14 @@
 				C080866F2AB6FBE80040832D /* GroceryiOSUITestsLaunchTests.swift */,
 			);
 			path = GroceryiOSUITests;
+			sourceTree = "<group>";
+		};
+		C0F944582AC0B35D00F91278 /* AppState */ = {
+			isa = PBXGroup;
+			children = (
+				C0F944592AC0B37600F91278 /* AppState.swift */,
+			);
+			path = AppState;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,6 +348,7 @@
 			files = (
 				C06747482AB977C20072F4FE /* RegistrationScreen.swift in Sources */,
 				C06747562AB9CDE30072F4FE /* GroceryModel.swift in Sources */,
+				C0FF89642ABAB334004CA452 /* ThingsToDo.swift in Sources */,
 				C08086552AB6FBE70040832D /* ContentView.swift in Sources */,
 				C06747582AB9CEF50072F4FE /* RegisterResponseDTO.swift in Sources */,
 				C08086532AB6FBE70040832D /* GroceryiOSApp.swift in Sources */,
@@ -341,6 +356,7 @@
 				C06747532AB98E0F0072F4FE /* HTTPClient.swift in Sources */,
 				C067474E2AB986F10072F4FE /* ThemeColour.swift in Sources */,
 				C06747502AB98AB00072F4FE /* String+Extension.swift in Sources */,
+				C0F9445A2AC0B37600F91278 /* AppState.swift in Sources */,
 				C067475D2AB9FDE70072F4FE /* LoginScreen.swift in Sources */,
 				C067474B2AB97C710072F4FE /* Color+Extension.swift in Sources */,
 			);

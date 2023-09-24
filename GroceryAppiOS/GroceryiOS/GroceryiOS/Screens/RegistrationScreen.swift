@@ -15,6 +15,7 @@ struct RegistrationScreen: View {
 
   
   @EnvironmentObject private var model: GroceryModel
+  @EnvironmentObject private var appState: AppState
   
   private var isInputValid: Bool {
     !username.isEmptyOrWhiteSpace && !password.isEmptyOrWhiteSpace && (password.count >= 6 && password.count <= 10)
@@ -94,6 +95,7 @@ extension RegistrationScreen {
       
       if !register.error {
         //send user to other screen
+        appState.routes.append(.login)
         
       } else {
         errorMessage = register.reason ?? "opps somehting went wrong"
@@ -108,8 +110,27 @@ extension RegistrationScreen {
   }
 }
 
-#Preview {
-  NavigationStack {
-    RegistrationScreen().environmentObject(GroceryModel())
+
+//logic to run the code less on full simluator using container view
+struct RegistrationScreenContainerView: View {
+  @StateObject private var appState = AppState()
+  @StateObject private var model = GroceryModel()
+  var body: some View {
+    NavigationStack(path: $appState.routes) {
+      RegistrationScreen().navigationDestination(for: Route.self) { route in
+        switch route {
+        case .register:
+          RegistrationScreen()
+        case .login:
+          LoginScreen()
+        case .groceryCategoryList:
+          Text("GroceryCategorList")
+        }
+      }
+    }.environmentObject(model).environmentObject(appState)
   }
+}
+
+#Preview {
+  RegistrationScreenContainerView()
 }

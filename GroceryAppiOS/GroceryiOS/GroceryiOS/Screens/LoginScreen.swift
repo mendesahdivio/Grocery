@@ -83,9 +83,11 @@ struct LoginScreen: View {
 extension LoginScreen {
   private func login() async {
     do {
-      let isLogedIn = try await model.login(username: username, password: password)
-      if isLogedIn {
-        //move to the grocery view
+      let loginResponseDTO = try await model.login(username: username, password: password)
+      if loginResponseDTO.error {
+        errorMessage = loginResponseDTO.Reason ?? "Unable to login at this time"
+      } else {
+        print(loginResponseDTO.token ?? "failed to pass toke")
       }
     }catch {
       errorMessage = error.localizedDescription
