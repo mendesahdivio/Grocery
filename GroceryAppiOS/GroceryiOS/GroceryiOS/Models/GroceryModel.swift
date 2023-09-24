@@ -18,18 +18,16 @@ class GroceryModel: ObservableObject {
 }
 
 extension GroceryModel {
-  final func login(username: String, password: String) async throws -> Bool {
+  final func login(username: String, password: String) async throws -> LoginResponseDTO {
     let loginDataPost = ["username": username, "password": password]
     let resource = try Resource(url: Constants.Urls.login, method: .post(JSONEncoder().encode(loginDataPost)), modelType: LoginResponseDTO.self)
     let loginResponseDTO = try await httpClient.load(resource)
-    if !loginResponseDTO.error && loginResponseDTO.token != nil {
+    if !loginResponseDTO.error && loginResponseDTO.token != nil && (loginResponseDTO.userId?.uuidString != nil) {
       //save the token in user defaults or key chains
       let userDefaults = UserDefaults.standard
       userDefaults.setValue(loginResponseDTO.token!, forKey: Constants.userDefaultKeys.authKey.rawValue)
-      userDefaults.setValue(loginResponseDTO.userId, forKey: Constants.userDefaultKeys.userId.rawValue)
-      return true
-    } else {
-      throw NetworkError.serverError("Unable to Login at this time")
+      userDefaults.setValue(loginResponseDTO.userId!.uuidString, forKey: Constants.userDefaultKeys.userId.rawValue)
     }
+    return loginResponseDTO
   }
 }

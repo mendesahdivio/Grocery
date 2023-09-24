@@ -25,14 +25,14 @@ final class UserController: RouteCollection {
     
     //find if the user already exist in the database
     guard let exsitingUser = try await User.query(on: req.db).filter(\.$username == user.username).first() else {
-      throw Abort(.unauthorized, reason: "Username doesnt exist please sign up before you try to login")
+      return LoginResponseDTO(error: true, Reason: "User doesnt exist in Datbase please register before logining in !!!")
     }
     
     //validate the password
     let isVerified = try await req.password.async.verify(user.password, created: exsitingUser.password)
     
     if !isVerified {
-      throw Abort(.unauthorized)
+      return LoginResponseDTO(error: true, Reason: "Incorect Password! Please enter correct password")
     }
     
     //generate the jwt token
