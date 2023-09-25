@@ -13,7 +13,6 @@
 		C06747502AB98AB00072F4FE /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C067474F2AB98AB00072F4FE /* String+Extension.swift */; };
 		C06747532AB98E0F0072F4FE /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06747522AB98E0F0072F4FE /* HTTPClient.swift */; };
 		C06747562AB9CDE30072F4FE /* GroceryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06747552AB9CDE30072F4FE /* GroceryModel.swift */; };
-		C06747582AB9CEF50072F4FE /* RegisterResponseDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06747572AB9CEF50072F4FE /* RegisterResponseDTO.swift */; };
 		C067475B2AB9CF660072F4FE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C067475A2AB9CF660072F4FE /* Constants.swift */; };
 		C067475D2AB9FDE70072F4FE /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C067475C2AB9FDE70072F4FE /* LoginScreen.swift */; };
 		C08086532AB6FBE70040832D /* GroceryiOSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08086522AB6FBE70040832D /* GroceryiOSApp.swift */; };
@@ -23,6 +22,7 @@
 		C08086642AB6FBE80040832D /* GroceryiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08086632AB6FBE80040832D /* GroceryiOSTests.swift */; };
 		C080866E2AB6FBE80040832D /* GroceryiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080866D2AB6FBE80040832D /* GroceryiOSUITests.swift */; };
 		C08086702AB6FBE80040832D /* GroceryiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080866F2AB6FBE80040832D /* GroceryiOSUITestsLaunchTests.swift */; };
+		C0A24ABB2AC202AD00397F14 /* GroceryAppSharedDTO in Frameworks */ = {isa = PBXBuildFile; productRef = C0A24ABA2AC202AD00397F14 /* GroceryAppSharedDTO */; };
 		C0F9445A2AC0B37600F91278 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F944592AC0B37600F91278 /* AppState.swift */; };
 		C0FF89642ABAB334004CA452 /* ThingsToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FF89632ABAB333004CA452 /* ThingsToDo.swift */; };
 /* End PBXBuildFile section */
@@ -51,7 +51,6 @@
 		C067474F2AB98AB00072F4FE /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
 		C06747522AB98E0F0072F4FE /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
 		C06747552AB9CDE30072F4FE /* GroceryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryModel.swift; sourceTree = "<group>"; };
-		C06747572AB9CEF50072F4FE /* RegisterResponseDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterResponseDTO.swift; sourceTree = "<group>"; };
 		C067475A2AB9CF660072F4FE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		C067475C2AB9FDE70072F4FE /* LoginScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		C080864F2AB6FBE70040832D /* GroceryiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GroceryiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A24ABB2AC202AD00397F14 /* GroceryAppSharedDTO in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -131,7 +131,6 @@
 			isa = PBXGroup;
 			children = (
 				C06747552AB9CDE30072F4FE /* GroceryModel.swift */,
-				C06747572AB9CEF50072F4FE /* RegisterResponseDTO.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -232,6 +231,9 @@
 			dependencies = (
 			);
 			name = GroceryiOS;
+			packageProductDependencies = (
+				C0A24ABA2AC202AD00397F14 /* GroceryAppSharedDTO */,
+			);
 			productName = GroceryiOS;
 			productReference = C080864F2AB6FBE70040832D /* GroceryiOS.app */;
 			productType = "com.apple.product-type.application";
@@ -304,6 +306,9 @@
 				Base,
 			);
 			mainGroup = C08086462AB6FBE70040832D;
+			packageReferences = (
+				C0A24AB92AC202AD00397F14 /* XCRemoteSwiftPackageReference "GroceryAppSharedDTO" */,
+			);
 			productRefGroup = C08086502AB6FBE70040832D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -350,7 +355,6 @@
 				C06747562AB9CDE30072F4FE /* GroceryModel.swift in Sources */,
 				C0FF89642ABAB334004CA452 /* ThingsToDo.swift in Sources */,
 				C08086552AB6FBE70040832D /* ContentView.swift in Sources */,
-				C06747582AB9CEF50072F4FE /* RegisterResponseDTO.swift in Sources */,
 				C08086532AB6FBE70040832D /* GroceryiOSApp.swift in Sources */,
 				C067475B2AB9CF660072F4FE /* Constants.swift in Sources */,
 				C06747532AB98E0F0072F4FE /* HTTPClient.swift in Sources */,
@@ -683,6 +687,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C0A24AB92AC202AD00397F14 /* XCRemoteSwiftPackageReference "GroceryAppSharedDTO" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/mendesahdivio/GroceryAppSharedDTO.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C0A24ABA2AC202AD00397F14 /* GroceryAppSharedDTO */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C0A24AB92AC202AD00397F14 /* XCRemoteSwiftPackageReference "GroceryAppSharedDTO" */;
+			productName = GroceryAppSharedDTO;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C08086472AB6FBE70040832D /* Project object */;
 }
