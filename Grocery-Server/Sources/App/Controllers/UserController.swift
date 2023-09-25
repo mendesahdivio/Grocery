@@ -8,6 +8,7 @@
 import Foundation
 import Vapor
 import Fluent
+import GroceryAppSharedDTO
 
 final class UserController: RouteCollection {
   func boot(routes: RoutesBuilder) throws {
