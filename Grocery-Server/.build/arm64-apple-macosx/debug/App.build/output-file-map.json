@@ -2,11 +2,65 @@
   "": {
     "swift-dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/master.swiftdeps"
   },
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/Controllers/GroceryController.swift": {
+    "dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Controllers/GroceryController.d",
+    "object": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Controllers/GroceryController.swift.o",
+    "swiftmodule": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Controllers/GroceryController~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Controllers/GroceryController.swiftdeps"
+  },
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/Controllers/UserController.swift": {
+    "dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Controllers/UserController.d",
+    "object": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Controllers/UserController.swift.o",
+    "swiftmodule": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Controllers/UserController~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Controllers/UserController.swiftdeps"
+  },
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/Extensions/GroceryCategoryResponseDTO+Extension.swift": {
+    "dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Extensions/GroceryCategoryResponseDTO+Extension.d",
+    "object": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Extensions/GroceryCategoryResponseDTO+Extension.swift.o",
+    "swiftmodule": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Extensions/GroceryCategoryResponseDTO+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Extensions/GroceryCategoryResponseDTO+Extension.swiftdeps"
+  },
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/Extensions/LoginResponseDTO+Extension.swift": {
+    "dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Extensions/LoginResponseDTO+Extension.d",
+    "object": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Extensions/LoginResponseDTO+Extension.swift.o",
+    "swiftmodule": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Extensions/LoginResponseDTO+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Extensions/LoginResponseDTO+Extension.swiftdeps"
+  },
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/Extensions/RegisterResponseDTO+Extension.swift": {
+    "dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Extensions/RegisterResponseDTO+Extension.d",
+    "object": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Extensions/RegisterResponseDTO+Extension.swift.o",
+    "swiftmodule": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Extensions/RegisterResponseDTO+Extension~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Extensions/RegisterResponseDTO+Extension.swiftdeps"
+  },
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/Migrations/CreateGroceryCategoryTabelMigration.swift": {
+    "dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateGroceryCategoryTabelMigration.d",
+    "object": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateGroceryCategoryTabelMigration.swift.o",
+    "swiftmodule": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateGroceryCategoryTabelMigration~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateGroceryCategoryTabelMigration.swiftdeps"
+  },
   "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/Migrations/CreateUsersTableMigration.swift": {
     "dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateUsersTableMigration.d",
     "object": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateUsersTableMigration.swift.o",
     "swiftmodule": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateUsersTableMigration~partial.swiftmodule",
     "swift-dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Migrations/CreateUsersTableMigration.swiftdeps"
+  },
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/Models/AuthPayload.swift": {
+    "dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Models/AuthPayload.d",
+    "object": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Models/AuthPayload.swift.o",
+    "swiftmodule": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Models/AuthPayload~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Models/AuthPayload.swiftdeps"
+  },
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/Models/GroceryCategory.swift": {
+    "dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Models/GroceryCategory.d",
+    "object": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Models/GroceryCategory.swift.o",
+    "swiftmodule": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Models/GroceryCategory~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Models/GroceryCategory.swiftdeps"
+  },
+  "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/Models/User.swift": {
+    "dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Models/User.d",
+    "object": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Models/User.swift.o",
+    "swiftmodule": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Models/User~partial.swiftmodule",
+    "swift-dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/Models/User.swiftdeps"
   },
   "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/Sources/App/configure.swift": {
     "dependencies": "/Users/ahdiviomendes/MyProjects/Grocery/Grocery-Server/.build/arm64-apple-macosx/debug/App.build/configure.d",

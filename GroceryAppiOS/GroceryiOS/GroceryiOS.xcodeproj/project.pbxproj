@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C0376D3B2AC9801200491D65 /* AddGroceryCategoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0376D3A2AC9801200491D65 /* AddGroceryCategoryScreen.swift */; };
+		C0376D3E2AC9817500491D65 /* ColorSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0376D3D2AC9817500491D65 /* ColorSelector.swift */; };
+		C0376D402AC9895900491D65 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0376D3F2AC9895900491D65 /* UserDefaultsManager.swift */; };
 		C06747482AB977C20072F4FE /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06747472AB977C20072F4FE /* RegistrationScreen.swift */; };
 		C067474B2AB97C710072F4FE /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C067474A2AB97C710072F4FE /* Color+Extension.swift */; };
 		C067474E2AB986F10072F4FE /* ThemeColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = C067474D2AB986F10072F4FE /* ThemeColour.swift */; };
@@ -45,6 +48,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C0376D3A2AC9801200491D65 /* AddGroceryCategoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroceryCategoryScreen.swift; sourceTree = "<group>"; };
+		C0376D3D2AC9817500491D65 /* ColorSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelector.swift; sourceTree = "<group>"; };
+		C0376D3F2AC9895900491D65 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		C06747472AB977C20072F4FE /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
 		C067474A2AB97C710072F4FE /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		C067474D2AB986F10072F4FE /* ThemeColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColour.swift; sourceTree = "<group>"; };
@@ -93,11 +99,20 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C0376D3C2AC9815C00491D65 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0376D3D2AC9817500491D65 /* ColorSelector.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		C06747462AB9779E0072F4FE /* Screens */ = {
 			isa = PBXGroup;
 			children = (
 				C06747472AB977C20072F4FE /* RegistrationScreen.swift */,
 				C067475C2AB9FDE70072F4FE /* LoginScreen.swift */,
+				C0376D3A2AC9801200491D65 /* AddGroceryCategoryScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -131,6 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				C06747552AB9CDE30072F4FE /* GroceryModel.swift */,
+				C0376D3F2AC9895900491D65 /* UserDefaultsManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -166,6 +182,7 @@
 		C08086512AB6FBE70040832D /* GroceryiOS */ = {
 			isa = PBXGroup;
 			children = (
+				C0376D3C2AC9815C00491D65 /* Views */,
 				C0F944582AC0B35D00F91278 /* AppState */,
 				C06747592AB9CF560072F4FE /* Utils */,
 				C06747542AB9CDCD0072F4FE /* Models */,
@@ -351,6 +368,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0376D3B2AC9801200491D65 /* AddGroceryCategoryScreen.swift in Sources */,
 				C06747482AB977C20072F4FE /* RegistrationScreen.swift in Sources */,
 				C06747562AB9CDE30072F4FE /* GroceryModel.swift in Sources */,
 				C0FF89642ABAB334004CA452 /* ThingsToDo.swift in Sources */,
@@ -358,11 +376,13 @@
 				C08086532AB6FBE70040832D /* GroceryiOSApp.swift in Sources */,
 				C067475B2AB9CF660072F4FE /* Constants.swift in Sources */,
 				C06747532AB98E0F0072F4FE /* HTTPClient.swift in Sources */,
+				C0376D3E2AC9817500491D65 /* ColorSelector.swift in Sources */,
 				C067474E2AB986F10072F4FE /* ThemeColour.swift in Sources */,
 				C06747502AB98AB00072F4FE /* String+Extension.swift in Sources */,
 				C0F9445A2AC0B37600F91278 /* AppState.swift in Sources */,
 				C067475D2AB9FDE70072F4FE /* LoginScreen.swift in Sources */,
 				C067474B2AB97C710072F4FE /* Color+Extension.swift in Sources */,
+				C0376D402AC9895900491D65 /* UserDefaultsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
