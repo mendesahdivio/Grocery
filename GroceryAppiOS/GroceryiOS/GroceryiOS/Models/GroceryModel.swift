@@ -10,7 +10,8 @@ import GroceryAppSharedDTO
 //register
 class GroceryModel: ObservableObject {
   let httpClient = HTTPClient()
-  let userdefaults = UserDefaultsManager()
+  let keyStore: KeyManager = KeyManager(manager: UserDefaultsManager(userDefaults: UserDefaults.standard))
+  
   final func register(username: String, password: String) async throws -> RegisterResponseDTO {
     let registerData = ["username": username, "password": password]
     let resource = try Resource(url: Constants.Urls.register, method: .post(JSONEncoder().encode(registerData)), modelType: RegisterResponseDTO.self)
@@ -27,8 +28,8 @@ extension GroceryModel {
     let loginResponseDTO = try await httpClient.load(resource)
     if !loginResponseDTO.error && loginResponseDTO.token != nil && (loginResponseDTO.userId?.uuidString != nil) {
       //save the token in user defaults or key chains
-      try userdefaults.setAuthKey(authKey: loginResponseDTO.token!)
-      try userdefaults.setUserId(id: loginResponseDTO.userId!.uuidString)
+      try keyStore.core?.setAuthKey(data: loginResponseDTO.token!)
+      try keyStore.core?.setUserId(data: loginResponseDTO.userId!.uuidString)
     }
     return loginResponseDTO
   }
@@ -38,8 +39,9 @@ extension GroceryModel {
 //save grocery Model
 extension GroceryModel {
   final func saveGroceryModel(_ groceryCategoryRequestDTO: GroceryCategoryRequestDTO) async throws -> Bool {
-    guard let userIdString = userdefaults.getUserId, let userId = UUID(uuidString: userIdString) else {
-      throw UserDefaultsError.returnNull
+    guard let userIdString = try keyStore.core?.getUserId() else { throw keyErrors.fetchedEmtpy }
+    guard let userId = UUID(uuidString: userIdString) else {
+      throw keyErrors.fetchedEmtpy
     }
     let resource = try Resource(url: Constants.Urls.saveGroceryCategoryBy(userId: userId), method: .post(JSONEncoder().encode(groceryCategoryRequestDTO)), modelType: GroceryCategoryResponseDTO.self)
     
