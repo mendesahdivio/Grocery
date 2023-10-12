@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		C0376D3B2AC9801200491D65 /* AddGroceryCategoryScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0376D3A2AC9801200491D65 /* AddGroceryCategoryScreen.swift */; };
 		C0376D3E2AC9817500491D65 /* ColorSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0376D3D2AC9817500491D65 /* ColorSelector.swift */; };
-		C0376D402AC9895900491D65 /* UserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0376D3F2AC9895900491D65 /* UserDefaultsManager.swift */; };
 		C06747482AB977C20072F4FE /* RegistrationScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06747472AB977C20072F4FE /* RegistrationScreen.swift */; };
 		C067474B2AB97C710072F4FE /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C067474A2AB97C710072F4FE /* Color+Extension.swift */; };
 		C067474E2AB986F10072F4FE /* ThemeColour.swift in Sources */ = {isa = PBXBuildFile; fileRef = C067474D2AB986F10072F4FE /* ThemeColour.swift */; };
@@ -25,6 +24,7 @@
 		C08086642AB6FBE80040832D /* GroceryiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08086632AB6FBE80040832D /* GroceryiOSTests.swift */; };
 		C080866E2AB6FBE80040832D /* GroceryiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080866D2AB6FBE80040832D /* GroceryiOSUITests.swift */; };
 		C08086702AB6FBE80040832D /* GroceryiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080866F2AB6FBE80040832D /* GroceryiOSUITestsLaunchTests.swift */; };
+		C09D53CE2AD8398B00C6F9ED /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D53CD2AD8398B00C6F9ED /* KeyManager.swift */; };
 		C0A24ABB2AC202AD00397F14 /* GroceryAppSharedDTO in Frameworks */ = {isa = PBXBuildFile; productRef = C0A24ABA2AC202AD00397F14 /* GroceryAppSharedDTO */; };
 		C0F9445A2AC0B37600F91278 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F944592AC0B37600F91278 /* AppState.swift */; };
 		C0FF89642ABAB334004CA452 /* ThingsToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0FF89632ABAB333004CA452 /* ThingsToDo.swift */; };
@@ -50,7 +50,6 @@
 /* Begin PBXFileReference section */
 		C0376D3A2AC9801200491D65 /* AddGroceryCategoryScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroceryCategoryScreen.swift; sourceTree = "<group>"; };
 		C0376D3D2AC9817500491D65 /* ColorSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSelector.swift; sourceTree = "<group>"; };
-		C0376D3F2AC9895900491D65 /* UserDefaultsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsManager.swift; sourceTree = "<group>"; };
 		C06747472AB977C20072F4FE /* RegistrationScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationScreen.swift; sourceTree = "<group>"; };
 		C067474A2AB97C710072F4FE /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
 		C067474D2AB986F10072F4FE /* ThemeColour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeColour.swift; sourceTree = "<group>"; };
@@ -69,6 +68,7 @@
 		C08086692AB6FBE80040832D /* GroceryiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C080866D2AB6FBE80040832D /* GroceryiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryiOSUITests.swift; sourceTree = "<group>"; };
 		C080866F2AB6FBE80040832D /* GroceryiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C09D53CD2AD8398B00C6F9ED /* KeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManager.swift; sourceTree = "<group>"; };
 		C0F944592AC0B37600F91278 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		C0FF89632ABAB333004CA452 /* ThingsToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -146,7 +146,7 @@
 			isa = PBXGroup;
 			children = (
 				C06747552AB9CDE30072F4FE /* GroceryModel.swift */,
-				C0376D3F2AC9895900491D65 /* UserDefaultsManager.swift */,
+				C09D53CD2AD8398B00C6F9ED /* KeyManager.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -375,6 +375,7 @@
 				C08086552AB6FBE70040832D /* ContentView.swift in Sources */,
 				C08086532AB6FBE70040832D /* GroceryiOSApp.swift in Sources */,
 				C067475B2AB9CF660072F4FE /* Constants.swift in Sources */,
+				C09D53CE2AD8398B00C6F9ED /* KeyManager.swift in Sources */,
 				C06747532AB98E0F0072F4FE /* HTTPClient.swift in Sources */,
 				C0376D3E2AC9817500491D65 /* ColorSelector.swift in Sources */,
 				C067474E2AB986F10072F4FE /* ThemeColour.swift in Sources */,
@@ -382,7 +383,6 @@
 				C0F9445A2AC0B37600F91278 /* AppState.swift in Sources */,
 				C067475D2AB9FDE70072F4FE /* LoginScreen.swift in Sources */,
 				C067474B2AB97C710072F4FE /* Color+Extension.swift in Sources */,
-				C0376D402AC9895900491D65 /* UserDefaultsManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
