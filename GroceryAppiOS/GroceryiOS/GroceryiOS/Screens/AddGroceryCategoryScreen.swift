@@ -6,10 +6,12 @@
 //
 
 import SwiftUI
+import GroceryAppSharedDTO
 
 struct AddGroceryCategoryScreen: View {
   @State private var title: String = ""
   @State private var colorSelector: String = "#00ff00"
+  @EnvironmentObject private var model: GroceryModel
   @Environment(\.dismiss) private var dismiss
   
   private var isValidToSave: Bool {
@@ -41,7 +43,13 @@ struct AddGroceryCategoryScreen: View {
 //saving grocery category funtion
 extension AddGroceryCategoryScreen {
   private func saveGroceryCategory() async {
-    print("save the categoryHere")
+    let groceryCategoryRequest = GroceryCategoryRequestDTO(title: title, colorCode: colorSelector)
+    do {
+      let result = try await model.saveGroceryModel(groceryCategoryRequest)
+    }catch {
+      print("Error detected", error.localizedDescription)
+    }
+    
   }
 }
 
@@ -50,5 +58,6 @@ extension AddGroceryCategoryScreen {
 #Preview {
   NavigationStack {
     AddGroceryCategoryScreen()
+      .environmentObject(GroceryModel( ))
   }
 }

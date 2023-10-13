@@ -23,12 +23,12 @@ final class GroceryController: RouteCollection {
     
     let groceryCategoryRequestDTO = try req.content.decode(GroceryCategoryRequestDTO.self)
     
-    let gorceryCategory = GroceryCategory(title: groceryCategoryRequestDTO.title, colorCode: groceryCategoryRequestDTO.colorCode, userId: userId)
+    let groceryCategory = GroceryCategory(title: groceryCategoryRequestDTO.title, colorCode: groceryCategoryRequestDTO.colorCode, userId: userId)
     
-    try await gorceryCategory.save(on: req.db)
+    try await groceryCategory.save(on: req.db)
     
     
-    guard let groceryCategoryResponseDTO = GroceryCategoryResponseDTO(gorceryCategory) else {
+    guard let groceryCategoryResponseDTO = GroceryCategoryResponseDTO(groceryCategory) else {
       throw Abort(.internalServerError)
     }
     

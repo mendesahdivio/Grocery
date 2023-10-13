@@ -38,7 +38,7 @@ extension GroceryModel {
 
 //save grocery Model
 extension GroceryModel {
-  final func saveGroceryModel(_ groceryCategoryRequestDTO: GroceryCategoryRequestDTO) async throws -> Bool {
+  final func saveGroceryModel(_ groceryCategoryRequestDTO: GroceryCategoryRequestDTO) async throws  {
     guard let userIdString = try keyStore.core?.getUserId() else { throw keyErrors.fetchedEmtpy }
     guard let userId = UUID(uuidString: userIdString) else {
       throw keyErrors.fetchedEmtpy
@@ -46,7 +46,7 @@ extension GroceryModel {
     let resource = try Resource(url: Constants.Urls.saveGroceryCategoryBy(userId: userId), method: .post(JSONEncoder().encode(groceryCategoryRequestDTO)), modelType: GroceryCategoryResponseDTO.self)
     
     let newGroceryCategory = try await httpClient.load(resource)
-    
-    return false
+    //ass this new category to the list
+    print(newGroceryCategory)
   }
 }
