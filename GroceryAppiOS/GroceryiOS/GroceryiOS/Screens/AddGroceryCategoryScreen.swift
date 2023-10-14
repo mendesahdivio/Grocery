@@ -43,9 +43,12 @@ struct AddGroceryCategoryScreen: View {
 //saving grocery category funtion
 extension AddGroceryCategoryScreen {
   private func saveGroceryCategory() async {
-    let groceryCategoryRequest = GroceryCategoryRequestDTO(title: title, colorCode: colorSelector)
+    let groceryCategoryRequest = GroceryCategoryRequestDTO(
+      title: title,
+      colorCode: colorSelector
+    )
     do {
-      let result = try await model.saveGroceryModel(groceryCategoryRequest)
+       try await model.saveGroceryModel(groceryCategoryRequest)
     }catch {
       print("Error detected", error.localizedDescription)
     }
@@ -58,6 +61,6 @@ extension AddGroceryCategoryScreen {
 #Preview {
   NavigationStack {
     AddGroceryCategoryScreen()
-      .environmentObject(GroceryModel( ))
+      .environmentObject(GroceryModel())
   }
 }

@@ -7,11 +7,17 @@
 
 import Foundation
 import GroceryAppSharedDTO
-//register
+
+//properties
 class GroceryModel: ObservableObject {
+  @Published var groceryCategories: [GroceryCategoryResponseDTO] = []
   let httpClient = HTTPClient()
   let keyStore: KeyManager = KeyManager(manager: UserDefaultsManager(userDefaults: UserDefaults.standard))
-  
+}
+
+
+//register
+extension GroceryModel {
   final func register(username: String, password: String) async throws -> RegisterResponseDTO {
     let registerData = ["username": username, "password": password]
     let resource = try Resource(url: Constants.Urls.register, method: .post(JSONEncoder().encode(registerData)), modelType: RegisterResponseDTO.self)
@@ -39,14 +45,38 @@ extension GroceryModel {
 //save grocery Model
 extension GroceryModel {
   final func saveGroceryModel(_ groceryCategoryRequestDTO: GroceryCategoryRequestDTO) async throws  {
-    guard let userIdString = try keyStore.core?.getUserId() else { throw keyErrors.fetchedEmtpy }
-    guard let userId = UUID(uuidString: userIdString) else {
+    
+    guard let userIdString = try keyStore.core?.getUserId(),
+    let userId = UUID(uuidString: userIdString)
+    else {
       throw keyErrors.fetchedEmtpy
     }
+    
     let resource = try Resource(url: Constants.Urls.saveGroceryCategoryBy(userId: userId), method: .post(JSONEncoder().encode(groceryCategoryRequestDTO)), modelType: GroceryCategoryResponseDTO.self)
     
     let newGroceryCategory = try await httpClient.load(resource)
-    //ass this new category to the list
-    print(newGroceryCategory)
+    
+    //adds this new category to the list
+    groceryCategories.append(newGroceryCategory)
+  }
+}
+
+
+//get Grocery Categories
+extension GroceryModel {
+  final func populateGroceryCategories() async throws {
+    guard let userIdString = try keyStore.core?.getUserId(),
+          let userId = UUID(uuidString: userIdString)
+    else {
+      throw keyErrors.fetchedEmtpy
+    }
+    
+    let resource = Resource(
+      url: Constants.Urls.groceryCategoryBy(userId: userId),
+      modelType: [GroceryCategoryResponseDTO].self
+    )
+    
+    groceryCategories =  try await httpClient.load(resource)
+    
   }
 }

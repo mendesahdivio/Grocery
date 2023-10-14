@@ -13,8 +13,16 @@ struct Constants {
   
   struct Urls {
     static let register = URL(string: "\(baseApi)/register")!
+    
     static let login = URL(string: "\(baseApi)/login")!
+    
+    //api to save grocery category
     static func saveGroceryCategoryBy(userId: UUID) ->URL {
+      return URL(string: "\(baseApi)/users/\(userId)/grocery-categories")!
+    }
+    
+    //api to get grocery category
+    static func groceryCategoryBy(userId: UUID) ->URL {
       return URL(string: "\(baseApi)/users/\(userId)/grocery-categories")!
     }
   }

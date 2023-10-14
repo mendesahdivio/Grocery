@@ -24,6 +24,8 @@
 		C08086642AB6FBE80040832D /* GroceryiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08086632AB6FBE80040832D /* GroceryiOSTests.swift */; };
 		C080866E2AB6FBE80040832D /* GroceryiOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080866D2AB6FBE80040832D /* GroceryiOSUITests.swift */; };
 		C08086702AB6FBE80040832D /* GroceryiOSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C080866F2AB6FBE80040832D /* GroceryiOSUITestsLaunchTests.swift */; };
+		C09616CB2ADA5E620079BC0F /* GroceryCategoriesListScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09616CA2ADA5E620079BC0F /* GroceryCategoriesListScreen.swift */; };
+		C09616CD2ADA5F8F0079BC0F /* GtoceryCategoriesResponseDTO+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09616CC2ADA5F8F0079BC0F /* GtoceryCategoriesResponseDTO+Extension.swift */; };
 		C09D53CE2AD8398B00C6F9ED /* KeyManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09D53CD2AD8398B00C6F9ED /* KeyManager.swift */; };
 		C0A24ABB2AC202AD00397F14 /* GroceryAppSharedDTO in Frameworks */ = {isa = PBXBuildFile; productRef = C0A24ABA2AC202AD00397F14 /* GroceryAppSharedDTO */; };
 		C0F9445A2AC0B37600F91278 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0F944592AC0B37600F91278 /* AppState.swift */; };
@@ -68,6 +70,8 @@
 		C08086692AB6FBE80040832D /* GroceryiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GroceryiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C080866D2AB6FBE80040832D /* GroceryiOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryiOSUITests.swift; sourceTree = "<group>"; };
 		C080866F2AB6FBE80040832D /* GroceryiOSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryiOSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C09616CA2ADA5E620079BC0F /* GroceryCategoriesListScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroceryCategoriesListScreen.swift; sourceTree = "<group>"; };
+		C09616CC2ADA5F8F0079BC0F /* GtoceryCategoriesResponseDTO+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GtoceryCategoriesResponseDTO+Extension.swift"; sourceTree = "<group>"; };
 		C09D53CD2AD8398B00C6F9ED /* KeyManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyManager.swift; sourceTree = "<group>"; };
 		C0F944592AC0B37600F91278 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
 		C0FF89632ABAB333004CA452 /* ThingsToDo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingsToDo.swift; sourceTree = "<group>"; };
@@ -113,6 +117,7 @@
 				C06747472AB977C20072F4FE /* RegistrationScreen.swift */,
 				C067475C2AB9FDE70072F4FE /* LoginScreen.swift */,
 				C0376D3A2AC9801200491D65 /* AddGroceryCategoryScreen.swift */,
+				C09616CA2ADA5E620079BC0F /* GroceryCategoriesListScreen.swift */,
 			);
 			path = Screens;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			children = (
 				C067474A2AB97C710072F4FE /* Color+Extension.swift */,
 				C067474F2AB98AB00072F4FE /* String+Extension.swift */,
+				C09616CC2ADA5F8F0079BC0F /* GtoceryCategoriesResponseDTO+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -373,12 +379,14 @@
 				C06747562AB9CDE30072F4FE /* GroceryModel.swift in Sources */,
 				C0FF89642ABAB334004CA452 /* ThingsToDo.swift in Sources */,
 				C08086552AB6FBE70040832D /* ContentView.swift in Sources */,
+				C09616CD2ADA5F8F0079BC0F /* GtoceryCategoriesResponseDTO+Extension.swift in Sources */,
 				C08086532AB6FBE70040832D /* GroceryiOSApp.swift in Sources */,
 				C067475B2AB9CF660072F4FE /* Constants.swift in Sources */,
 				C09D53CE2AD8398B00C6F9ED /* KeyManager.swift in Sources */,
 				C06747532AB98E0F0072F4FE /* HTTPClient.swift in Sources */,
 				C0376D3E2AC9817500491D65 /* ColorSelector.swift in Sources */,
 				C067474E2AB986F10072F4FE /* ThemeColour.swift in Sources */,
+				C09616CB2ADA5E620079BC0F /* GroceryCategoriesListScreen.swift in Sources */,
 				C06747502AB98AB00072F4FE /* String+Extension.swift in Sources */,
 				C0F9445A2AC0B37600F91278 /* AppState.swift in Sources */,
 				C067475D2AB9FDE70072F4FE /* LoginScreen.swift in Sources */,
