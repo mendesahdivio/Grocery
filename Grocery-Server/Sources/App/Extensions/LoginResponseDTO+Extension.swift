@@ -11,3 +11,4 @@ import Vapor
 extension LoginResponseDTO: Content {
  
 }
+
