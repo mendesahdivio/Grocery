@@ -11,45 +11,57 @@ struct GroceryCategoriesListScreen: View {
   @EnvironmentObject private var model: GroceryModel
   @State private var isPresented: Bool = false
   
-    var body: some View {
-      List {
+  var body: some View {
+    ZStack {
+      if model.groceryCategories.isEmpty {
+        Text("you can start by adding new categories in here 😋").font(.footnote).foregroundStyle(LinearGradient(
+          colors: [.green, .blue, .yellow],
+          startPoint: .leading,
+          endPoint: .trailing
+        ))
+      } else {
         
-        ForEach(model.groceryCategories) { groceryCategory in
-          HStack {
-            Circle()
-              .fill(Color(UIColor.init(hexString: groceryCategory.colorCode)))
-              .frame(width: 25, height: 25)
-            Text(groceryCategory.title)
-          }
+        List {
           
-        }.onDelete(perform: deleteGroceryCategotry)
-      
-      }.task {
-        await fetchGroceryCategories()
-      }
-      .navigationTitle("Categories")
-      .toolbar{
-        ToolbarItem(placement: .topBarLeading) {
-          Button("Logout") {
+          ForEach(model.groceryCategories) { groceryCategory in
+            HStack {
+              Circle()
+                .fill(Color(UIColor.init(hexString: groceryCategory.colorCode)))
+                .frame(width: 25, height: 25)
+              Text(groceryCategory.title)
+            }
             
-          }
-        }
-        
-        ToolbarItem(placement: .topBarTrailing) {
-          Button{
-            isPresented = true
-          } label: {
-            Image(systemName: "plus")
-          }
+          }.onDelete(perform: deleteGroceryCategotry)
+          
         }
       }
-      .sheet(isPresented: $isPresented) {
-        NavigationStack {
-          AddGroceryCategoryScreen()
+    }
+    .task {
+      await fetchGroceryCategories()
+    }
+    .navigationTitle("Categories")
+    .toolbar{
+      ToolbarItem(placement: .topBarLeading) {
+        Button("Logout") {
+          
         }
       }
       
+      ToolbarItem(placement: .topBarTrailing) {
+        Button{
+          isPresented = true
+        } label: {
+          Image(systemName: "plus")
+        }
+      }
     }
+    .sheet(isPresented: $isPresented) {
+      NavigationStack {
+        AddGroceryCategoryScreen()
+      }
+    }
+    
+  }
 }
 
 //calls grocery categories from server to populate the view
