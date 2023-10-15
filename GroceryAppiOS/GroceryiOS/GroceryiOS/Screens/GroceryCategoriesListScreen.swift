@@ -9,14 +9,46 @@ import SwiftUI
 
 struct GroceryCategoriesListScreen: View {
   @EnvironmentObject private var model: GroceryModel
+  @State private var isPresented: Bool = false
   
     var body: some View {
-      List(model.groceryCategories) { groceryCategory in
-        Text(groceryCategory.title)
+      List {
+        
+        ForEach(model.groceryCategories) { groceryCategory in
+          HStack {
+            Circle()
+              .fill(Color(UIColor.init(hexString: groceryCategory.colorCode)))
+              .frame(width: 25, height: 25)
+            Text(groceryCategory.title)
+          }
+          
+        }.onDelete(perform: deleteGroceryCategotry)
+      
       }.task {
         await fetchGroceryCategories()
       }
       .navigationTitle("Categories")
+      .toolbar{
+        ToolbarItem(placement: .topBarLeading) {
+          Button("Logout") {
+            
+          }
+        }
+        
+        ToolbarItem(placement: .topBarTrailing) {
+          Button{
+            isPresented = true
+          } label: {
+            Image(systemName: "plus")
+          }
+        }
+      }
+      .sheet(isPresented: $isPresented) {
+        NavigationStack {
+          AddGroceryCategoryScreen()
+        }
+      }
+      
     }
 }
 
@@ -28,6 +60,22 @@ extension GroceryCategoriesListScreen {
       
     }catch {
       print(error.localizedDescription)
+    }
+  }
+}
+
+//Handles swipe to delete grocery category
+extension GroceryCategoriesListScreen {
+  private func deleteGroceryCategotry(at offsets: IndexSet) {
+    offsets.forEach { index in
+      let groceryCategory = model.groceryCategories[index]
+      Task {
+        do {
+          try await model.deleteGroceryCategory(groceryCategoryId: groceryCategory.id)
+        } catch {
+          print(error.localizedDescription)
+        }
+      }
     }
   }
 }

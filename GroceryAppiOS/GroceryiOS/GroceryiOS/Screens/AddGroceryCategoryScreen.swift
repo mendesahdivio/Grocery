@@ -49,6 +49,7 @@ extension AddGroceryCategoryScreen {
     )
     do {
        try await model.saveGroceryModel(groceryCategoryRequest)
+       dismiss()
     }catch {
       print("Error detected", error.localizedDescription)
     }
